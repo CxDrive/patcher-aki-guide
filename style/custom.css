@@ -1,0 +1,20 @@
+body{
+	background-color:#212529;
+    color: #dee2e6;
+}
+
+#tab0 {
+    background-color:transparent;
+}
+
+input[type="file"], select {
+    background-color:transparent;
+}
+
+input[type=file].enabled:hover,select.enabled:hover{
+    background-color:#2b3035
+}
+
+#rom-info {
+    color: #ffcd3c;
+}
