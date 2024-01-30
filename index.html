@@ -1,7 +1,18 @@
 <!DOCTYPE html>
+
 <html translate="no">
+
 <head>
-	<title>Rom Patcher JS</title>
+
+	<title>patcher.aki.guide</title>
+
+    <meta property="og:title" content="aki.guide" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:site_name" content="aki.guide" />
+    <meta property="og:image" content="./style/ogp.png" />
+
 	<meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="description" content="An online web-based ROM patcher. Supported formats: IPS, BPS, UPS, APS, RUP, PPF and xdelta."/>
 	<meta name="keywords" content="ips,ups,aps,bps,rup,ninja,ppf,xdelta,patcher,online,html5,web,rom,patch,hack,translation"/>
@@ -9,6 +20,7 @@
 	<link rel="manifest" href="./manifest.json"/>
 	<link rel="shortcut icon" href="./style/app_icon_16.png" type="image/png" sizes="16x16"/>
 	<link rel="shortcut icon" href="./style/app_icon_192.png" type="image/png" sizes="192x192"/>
+
 	<!-- iOS icons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="./style/app_icon_114.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="./style/app_icon_114.png" />
@@ -16,23 +28,20 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="./style/app_icon_144.png" />
 	<link rel="apple-touch-icon" href="./style/app_icon_192.png" />
 
+	<!-- akiguide stuff -->
+    <link rel="icon" href="{{ site.url }}/favicon.png">
+    <link rel="icon" href="{{ site.url }}/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
+
 	<!-- cache -->
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
 
-	<!-- social network metatags -->	
-	<meta name="twitter:site" content="@marc_robledo">
-	<meta name="twitter:creator" content="@marc_robledo">
-	<meta name="twitter:domain" content="marcrobledo.com">
-	<meta property="og:title" content="Rom Patcher JS">
-	<meta name="twitter:title" content="Rom Patcher JS">
-	<meta name="twitter:description" content="An online web-based ROM patcher. Supported formats: IPS, BPS, UPS, APS, RUP, PPF and xdelta.">
-	<meta property="og:image" content="https://www.marcrobledo.com/RomPatcher.js/style/thumbnail.jpg">
-	<meta name="twitter:image" content="https://www.marcrobledo.com/RomPatcher.js/style/thumbnail.jpg">
-	<meta name="twitter:card" content="photo">
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="./style/RomPatcher.css" media="all"/>
+	<link href="./style/custom.css" rel="stylesheet" crossorigin="anonymous">
+
 	<script type="text/javascript" src="./js/locale.js"></script>
 	<script type="text/javascript" src="./js/RomPatcher.js"></script>
 	<script type="text/javascript" src="./js/MarcFile.js"></script>
@@ -49,6 +58,7 @@
 	<script type="text/javascript" src="./js/formats/vcdiff.js"></script>
 
 	<script type="text/javascript" src="./js/zip.js/zip.js"></script>
+
 	<!-- <script type="text/javascript" src="js/libunrar/rpc.js"></script> -->
 
 	<script type="text/javascript"><!--
@@ -83,16 +93,24 @@
 			}
 		];*/
 	--></script>
+
 </head>
-<body><div id="column">
 
+<body>
 
-<!-- HEADER -->
-<header><img src="./style/logo.png" /><h1>Rom Patcher JS</h1></header>
+<div id="column">
 
-<!-- APP -->
+    <!-- HEADER -->
+    <header>
+
+        <img src="./style/logo.png" />
+
+        <h1>Rom Patcher JS</h1>
+
+	</header>
+
+	<!-- APP -->
 <div id="wrapper">
-	<div id="switch-container"><span id="switch-create-button" class="button-outer"><span data-localize="creator_mode">Creator mode</span> <span id="switch-create" class="switch disabled"></span></span></div>
 
 	<div id="tab0" class="tab">
 		<div class="row m-b">
@@ -237,4 +255,7 @@
 		</div>
 	</div>
 </div>
-</body></html>
+
+</body>
+
+</html>
