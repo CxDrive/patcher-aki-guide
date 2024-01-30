@@ -378,7 +378,7 @@ addEvent(window,'load',function(){
 		el('input-file-rom1').value='';
 		el('input-file-rom2').value='';
 
-		el('switch-container').style.visibility='visible';
+		el('switch-container').style.visibility='hidden';
 
 		addEvent(el('input-file-patch'), 'change', function(){
 			setTabApplyEnabled(false);
