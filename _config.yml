@@ -1,0 +1,30 @@
+site: patcher.aki.guide
+title: patcher.aki.guide
+logo: /assets/img/logo.png
+ogp: /assets/img/ogp.png
+permalink: pretty
+
+domain: patcher.aki.guide
+url: http://localhost:4000
+baseurl: ""
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
