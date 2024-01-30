@@ -4,9 +4,9 @@ logo: /assets/img/logo.png
 ogp: /assets/img/ogp.png
 permalink: pretty
 
-domain: patcher.aki.guide
-url: http://localhost:4000
-baseurl: ""
+domain: cxdrive.github.io
+url: https://cxdrive.github.io/patcher-aki-guide
+baseurl: "patcher-aki-guide"
 
 
 defaults:
