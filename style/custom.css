@@ -7,6 +7,8 @@ body{
     background-color:transparent;
 }
 
+
+
 input[type="file"], select {
     background-color:transparent;
 }
@@ -17,4 +19,8 @@ input[type=file].enabled:hover,select.enabled:hover{
 
 #rom-info {
     color: #ffcd3c;
+}
+
+#select {
+    color: #dee2e6;
 }
