@@ -28,8 +28,7 @@ select {
 
 #summit {
      background-size: cover;
-     background-blend-mode: lighten;
-     background-image: url('./img/bg_summit.webp');
+     /* background-image: url('./img/bg_summit.webp'); */
 }
 
 footer {
