@@ -8,6 +8,12 @@ body{
     border-radius:12px;
 }
 
+#summary {
+    background-color:#212529;
+    border-radius:12px;
+    padding: 12px;
+}
+
 input[type="file"], select {
     background-color:transparent;
 }
