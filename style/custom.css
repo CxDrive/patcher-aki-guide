@@ -70,3 +70,11 @@ footer {
   color: #ffcd3c;
 
 }
+
+#settings-dialog {
+    background-color:#212529;
+}
+
+.hide-class {
+    display: none;
+}

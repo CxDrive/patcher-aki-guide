@@ -4,18 +4,18 @@
 
 <head>
 
-	<title>patcher.aki.guide</title>
+	<title>SUMMIT Virtual Pro Wrestling Gamma - Patcher</title>
 
-	<meta property="og:title" content="patcher.aki.guide" />
+	<meta property="og:title" content="SUMMIT Virtual Pro Wrestling Gamma - Patcher" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="" />
-    <meta property="og:url" content="https://patcher.aki.guide" />
+    <meta property="og:description" content="An online web-based ROM patcher for SUMMIT Virtual Pro Wrestling Gamma." />
+    <meta property="og:url" content="https://patcher.aki.guide/summit.html" />
     <meta property="og:site_name" content="patcher.aki.guide" />
-    <meta property="og:image" content="./style/ogp.png" />
+    <meta property="og:image" content="./style/img/ogp_summit.png" />
 
 	<meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="description" content="An online web-based ROM patcher. Supported formats: IPS, BPS, UPS, APS, RUP, PPF and xdelta."/>
-	<meta name="keywords" content="ips,ups,aps,bps,rup,ninja,ppf,xdelta,patcher,online,html5,web,rom,patch,hack,translation"/>
+	<meta name="description" content="An online web-based ROM patcher for SUMMIT Virtual Pro Wrestling Gamma."/>
+	<meta name="keywords" content="xdelta,patcher,online,html5,web,rom,patch,hack,translation"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<link rel="manifest" href="./manifest.json"/>
 	<link rel="shortcut icon" href="./style/app_icon_16.png" type="image/png" sizes="16x16"/>
@@ -53,37 +53,7 @@
 	<script type="text/javascript" src="./js/zip.js/zip.js"></script>
 	<!-- <script type="text/javascript" src="js/libunrar/rpc.js"></script> -->
 
-	<script type="text/javascript"><!--
-		// CUSTOM PATCHER EXAMPLE
-		// uncomment this to build your own custom exclusive patcher for your hacks/translations
-		// user will only need to provide the ROM file, as patches will be fetched from your server!
-		// a crc (or various crcs) can be provided for source files, allowing old formats like IPS to have validation!
-		/*var CUSTOM_PATCHER=[
-			{ //example: uncompressed file
-				file:'./_example/SML2DXv181.ips',
-				name:'Super Mario Land 2 DX v1.8.1 (USA/Europe)',
-				crc:0xd5ec24e4
-			},{ //example: uncompressed file
-				file:'./_example/SML2DXv181_jap.ips',
-				name:'Super Mario Land 2 DX v1.8.1 (Japan)',
-				crc:0xa715daf5
-			},{ //example: compressed file
-				file:'./_example/SML2DXv181.zip',
-				name:'Super Mario Land 2 DX v1.8.1 (World)',
-				crc:[0xd5ec24e4,0xa715daf5]
-			},{ //example: compressed file containing several patches, separate patches provided (recommended)
-				file:'./_example/SML2DXv181.zip',
-				patches:[{
-					file:'SML2DXv181.ips',
-					name:'Super Mario Land 2 DX v1.8.1 (USA/Europe)',
-					crc:0xd5ec24e4
-				},{
-					file:'SML2DXv181_jap.ips',
-					name:'Super Mario Land 2 DX v1.8.1 (Japan)',
-					crc:0xa715daf5
-				}]
-			}
-		];*/
+	<script type="text/javascript">
 		var CUSTOM_PATCHER=[
 			{ //example: uncompressed file
 				file:'./patch/summit/summit_release_1_20221021.xdelta',
@@ -91,7 +61,7 @@
 				crc:0x0B50B4C6
 			}
 		];
-	--></script>
+	</script>
 
 </head>
 
@@ -105,7 +75,7 @@
 
             <a href="https://aki.guide" alt="SUMMIT Virtual Pro Wrestling Gamma" title="Return to aki.guide"><img src="./style/img/lg_summit.png" /></a>
 
-            <h1>Rom Patcher JS</h1>
+            <h1>SUMMIT Virtual Pro Wrestling Gamma</h1>
 
 		</header>
 
@@ -265,7 +235,7 @@
 			<div class="rightcol-lg text-right"><span id="switch-fix-checksum" class="switch disabled"></span></div>
 		</div>
 
-		<div class="row">
+		<div class="row hide-class">
 			<div class="leftcol-lg"><label data-localize="light_theme">Light theme</label></div>
 			<div class="rightcol-lg text-right"><span id="switch-theme" class="switch disabled"></span></div>
 		</div>

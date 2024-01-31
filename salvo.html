@@ -4,18 +4,18 @@
 
 <head>
 
-	<title>patcher.aki.guide</title>
+	<title>Virtual Pro Wrestling Salvo - Patcher</title>
 
-	<meta property="og:title" content="patcher.aki.guide" />
+	<meta property="og:title" content="Virtual Pro Wrestling Salvo - Patcher" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="" />
-    <meta property="og:url" content="https://patcher.aki.guide" />
+    <meta property="og:description" content="An online web-based ROM patcher for Virtual Pro Wrestling Salvo" />
+    <meta property="og:url" content="https://patcher.aki.guide/salvo.html" />
     <meta property="og:site_name" content="patcher.aki.guide" />
-    <meta property="og:image" content="./style/ogp.png" />
+    <meta property="og:image" content="./style/img/ogp_salvo.png" />
 
 	<meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="description" content="An online web-based ROM patcher. Supported formats: IPS, BPS, UPS, APS, RUP, PPF and xdelta."/>
-	<meta name="keywords" content="ips,ups,aps,bps,rup,ninja,ppf,xdelta,patcher,online,html5,web,rom,patch,hack,translation"/>
+	<meta name="description" content="An online web-based ROM patcher for Virtual Pro Wrestling Salvo"/>
+	<meta name="keywords" content="xdelta,patcher,online,html5,web,rom,patch,hack,translation"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<link rel="manifest" href="./manifest.json"/>
 	<link rel="shortcut icon" href="./style/app_icon_16.png" type="image/png" sizes="16x16"/>
@@ -53,37 +53,7 @@
 	<script type="text/javascript" src="./js/zip.js/zip.js"></script>
 	<!-- <script type="text/javascript" src="js/libunrar/rpc.js"></script> -->
 
-	<script type="text/javascript"><!--
-		// CUSTOM PATCHER EXAMPLE
-		// uncomment this to build your own custom exclusive patcher for your hacks/translations
-		// user will only need to provide the ROM file, as patches will be fetched from your server!
-		// a crc (or various crcs) can be provided for source files, allowing old formats like IPS to have validation!
-		/*var CUSTOM_PATCHER=[
-			{ //example: uncompressed file
-				file:'./_example/SML2DXv181.ips',
-				name:'Super Mario Land 2 DX v1.8.1 (USA/Europe)',
-				crc:0xd5ec24e4
-			},{ //example: uncompressed file
-				file:'./_example/SML2DXv181_jap.ips',
-				name:'Super Mario Land 2 DX v1.8.1 (Japan)',
-				crc:0xa715daf5
-			},{ //example: compressed file
-				file:'./_example/SML2DXv181.zip',
-				name:'Super Mario Land 2 DX v1.8.1 (World)',
-				crc:[0xd5ec24e4,0xa715daf5]
-			},{ //example: compressed file containing several patches, separate patches provided (recommended)
-				file:'./_example/SML2DXv181.zip',
-				patches:[{
-					file:'SML2DXv181.ips',
-					name:'Super Mario Land 2 DX v1.8.1 (USA/Europe)',
-					crc:0xd5ec24e4
-				},{
-					file:'SML2DXv181_jap.ips',
-					name:'Super Mario Land 2 DX v1.8.1 (Japan)',
-					crc:0xa715daf5
-				}]
-			}
-		];*/
+	<script type="text/javascript">
 		var CUSTOM_PATCHER=[
 			{ //example: uncompressed file
 				file:'./patch/salvo/salvo_release_1_20240211.xdelta',
@@ -91,11 +61,11 @@
 				crc:0x54CBAAA8
 			}
 		];
-	--></script>
+	</script>
 
 </head>
 
-<body id="summit">
+<body id="salvo">
 
     <div id="column">
 
@@ -103,9 +73,9 @@
 
         <header>
 
-            <a href="https://aki.guide" alt="SUMMIT Virtual Pro Wrestling Gamma" title="Return to aki.guide"><img src="./style/img/lg_salvo.png" /></a>
+            <a href="https://aki.guide" alt="Virtual Pro Wrestling Salvo" title="Return to aki.guide"><img src="./style/img/lg_salvo.png" /></a>
 
-            <h1>Rom Patcher JS</h1>
+            <h1>Virtual Pro Wrestling Salvo</h1>
 
 		</header>
 
@@ -265,7 +235,7 @@
 			<div class="rightcol-lg text-right"><span id="switch-fix-checksum" class="switch disabled"></span></div>
 		</div>
 
-		<div class="row">
+		<div class="row hide-class">
 			<div class="leftcol-lg"><label data-localize="light_theme">Light theme</label></div>
 			<div class="rightcol-lg text-right"><span id="switch-theme" class="switch disabled"></span></div>
 		</div>
