@@ -86,16 +86,16 @@
 		];*/
 		var CUSTOM_PATCHER=[
 			{ //example: uncompressed file
-				file:'./patch/unlock-all/vpw2-jpn-unlock-all.xdelta',
-				name:'Virtual Pro Wrestling 2 (JPN) Unlock All',
-				crc:0xF620835D
+				file:'./patch/salvo/salvo_release_1_20240211.xdelta',
+				name:'Virtual Pro Wrestling Salvo (Release 1)',
+				crc:0x54CBAAA8
 			}
 		];
 	--></script>
 
 </head>
 
-<body>
+<body id="summit">
 
     <div id="column">
 
@@ -103,17 +103,30 @@
 
         <header>
 
-            <a href="https://aki.guide" alt="Return to aki.guide" title="Return to aki.guide"><img src="./style/logo.png" /></a>
+            <a href="https://aki.guide" alt="SUMMIT Virtual Pro Wrestling Gamma" title="Return to aki.guide"><img src="./style/img/lg_salvo.png" /></a>
 
             <h1>Rom Patcher JS</h1>
 
 		</header>
 
+
+
 <!-- APP -->
 <div id="wrapper">
+
+    <div id="summary" class="row m-b">
+    <div class="leftcol text-right text-bold">Created By:</div>
+    <div class="rightcol">ragdas</div>
+    <div class="leftcol text-right text-bold">Based On:</div>
+    <div class="rightcol">WCW-nWo Revenge (USA)</div>
+    <div class="leftcol text-right text-bold">Current Version:</div>
+    <div class="rightcol">Release 1 (February 11, 2024)</div>
+    </div>
+
 	<div id="switch-container"><span id="switch-create-button" class="button-outer"><span data-localize="creator_mode">Creator mode</span> <span id="switch-create" class="switch disabled"></span></span></div>
 
 	<div id="tab0" class="tab">
+
 		<div class="row m-b">
 			<div class="leftcol text-right"><label for="input-file-rom" data-localize="rom_file">ROM file:</label></div>
 			<div class="rightcol">
@@ -196,13 +209,13 @@
 <!-- FOOTER -->
 <footer>
 	<div>
-		<button id="button-settings" class="button-outer"><img src="style/icon_settings.svg" class="icon settings" /> <span data-localize="settings">Settings</span></button>
+		<button id="button-settings" class="button-outer"><img src="./style/icon_settings.svg" class="icon settings" /> <span data-localize="settings">Settings</span></button>
 	</div>
 
 	Based on </a>Rom Patcher JS <small>v2.8.1</small> by <a href="https://www.marcrobledo.com/">Marc Robledo</a>
 	<br />
-	<img src="style/icon_github.svg" class="icon github" /> <a href="https://github.com/marcrobledo/RomPatcher.js/" target="_blank">Rom Patcher JS on GitHub</a>
-	<img src="style/icon_heart.svg" class="icon heart" /> <a href="https://www.paypal.me/marcrobledo/5" target="_blank" rel="nofollow">Donate to Marc</a>
+	<img src="./style/icon_github.svg" class="icon github" /> <a href="https://github.com/marcrobledo/RomPatcher.js/" target="_blank">Rom Patcher JS on GitHub</a>
+	<img src="./style/icon_heart.svg" class="icon heart" /> <a href="https://www.paypal.me/marcrobledo/5" target="_blank" rel="nofollow">Donate to Marc</a>
 	<br /><br />
 	About <a class="yellow-link" href="https://aki.guide/about">aki.guide</a>
 </footer>
@@ -218,7 +231,7 @@
 	</div>
 
 	<div id="settings-dialog" class="dialog">
-		<div class="text-right m-b"><img id="settings-close-dialog" src="style/icon_close.svg" /></div>
+		<div class="text-right m-b"><img id="settings-close-dialog" src="./style/icon_close.svg" /></div>
 
 		<div class="row m-b">
 			<div class="leftcol"><label for="select-language">Language</label></div>
