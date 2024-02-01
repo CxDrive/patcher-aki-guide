@@ -1,0 +1,14 @@
+.box-link {
+     border: 1px dashed grey;
+     border-radius: 12px;
+     width: 25%;
+     margin: 0 3% 0;
+ }
+
+.available:hover {
+     border: 1px dashed yellow;
+ }
+
+.unavailable {
+    opacity: 0.2;
+}
