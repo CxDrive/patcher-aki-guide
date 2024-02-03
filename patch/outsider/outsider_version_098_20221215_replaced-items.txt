@@ -1,0 +1,302 @@
+01-ROCK
+02-Steve Austin - DUGGAN
+03-Undertaker - SID VICIOUS
+04-Mankind - BRUTUS BEEFCAKE
+05-Cactus Jack - !no change!
+06-HBK - FREIGHT TRAIN
+07-HHH - DUSTY RHODES - WCW REVENGE
+08-X-Pac - !no change!
+09-Billy Gunn - SCOTT HALL - WCW REVENGE
+10-Road Dogg - KEVIN NASH - WCW REVENGE
+11-Chris Benoit - SCOTT STEINER - WCW REVENGE
+12-Dean Malenko - TERMINATOR
+13-Perry Saturn - GLACIER - WCW REVENGE
+14-Eddy Guerrero - STING w/o FACEPAINT - WCW REVENGE
+15-Chris Jericho - ZANGIEF
+16-Kurt Angle - NOTWINSKI
+17-Tazz - KIMBO SLICE
+18-Test - HULK HOGAN - WCW REVENGE
+19-Godfather - BUFF BAGWELL
+20-D'Lo Brown - ULTIMATE WARRIOR
+21-Val Venis - BRICKOWSKI - WCW REVENGE
+22-Ken Shamrock - DAN SEVERN
+23-Rikishi - PN NEWS
+24-Grandmaster Sexay - FRED DURST
+25-Scotty Too Hotty - DEFAULT UNDERTAKER
+26-Edge - JOHNNY ACE - VPW2
+27-Christian - SHANE DOUGLAS
+28-Matt Hardy - BRET HART - WCW REVENGE
+29-Jeff Hardy - BORK LAZER
+30-Faarooq - ZEUS
+31-Bradshaw - VIRGIL - WCW REVENGE
+32-D-Von Dudley - FAKE RAZOR
+33-Buh Buh Dudley - FAKE DIESEL
+34-Hardcore Holly - NEW JACK
+35-Crash - KEN SF MOVIE
+36-Bossman - MENG
+37-Albert - RANDY SAVAGE - WCW REVENGE
+38-Al Snow - SABU
+39-Steve Blackman - IRON SHEIK
+40-British Bulldog - LEPRECHAUN
+41-Mark Henry - FAKE STING
+42-Viscera - GIANT SILVA
+43-Gangrel - MABEL
+44-Bull Buchanan - BARBARIAN - WCW REVENGE
+45-Essa Rios - RANDY THE RAM
+46-Taka Michinoku - DAVID ARQUETTE
+47-Sho Funaki - JIMMY KING
+48-Vince McMahon - RIC FLAIR
+49-Shane McMahon - TASKMASTER
+50-Jerry Lawler - REESE - WCW REVENGE
+51-Jim Ross - !no change!
+52-Paul Bearer - JIMMY HART - WCW REVENGE
+53-Gerald Brisco - RALPHUS
+54-Pat Patterson - RENE GOULET/WORZEL
+55-Howard Finkel - LEE MARSHALL
+56-Earl Hebner - BILL ALFONZO
+57-Michael Cole - HEENAN
+58-Andre The Giant - !no change!
+59-Rodney - MEAN GENE
+60-Joey Abs - DX ENFORCER
+61-Pete Gas - MR. DREAM
+62-Steven Richards - EDITED SMILE
+63-Chaz/Mosh - BOOGER
+64-Thrasher - BUBBA DJ
+65-Mideon - KODO FUYUKI - VPW2
+66-Droz - DUGGAN NO BEARD
+67-Kane - DEFAULT AUSTIN
+68-Kenta Kobashi - EARTHQUAKE
+69-Akira Taue - DEFAULT HHH
+70-Takao Omori - DEFAULT HBK
+71-Stan Hansen - DEFAULT SHAMROCK
+72-Gary Albright - VADER
+73-Shin'ya Hashimoto - DEFAULT BOSS MAN
+74-Shiro Koshinaka - DEFAULT MARK HENRY
+75-Terry Funk - DEFAULT KURT ANGLE
+76-Masahiro Chono - DEFAULT D-VON
+77-Jadoh - DEFAULT BUBBA
+78-Genichiro Tenryu -  - !no change!
+79-Jinsei Shinzaki - DEFAULT TAZ
+80-Masakatsu Funaki - DEFAULT TAKA
+81-Nobuhiko Takada - AHMED JOHNSON
+82-Kazushi Sakuraba - MIKE TYSON
+83-Aleksander Karelin - DUDLEY SF3
+84-Rickson Gracie - BIG DICK DUDLEY
+85-Mark Kerr - RYU SF MOVIE
+86-Bas Rutten - ERIC BISCHOFF - WCW REVENGE
+87-????? - KIRYU KAZUMA
+88-Don Frye - JAX
+89-Naoya Ogawa - WCW REVENGE TRUCKER/MENG
+90-Eiji Ezaki - FAKE UNDERTAKER
+91-Atsushi Onita - THE WALL
+92-????? - JO AMON
+93-Jyushin Lyger - LEX LUGER - WCW REVENGE
+94-Dos Caras - FAKE KIRYU
+95-The Great Sasuke - MR LIBIDO HABU
+96-The Patriot - ACCLAIM TRAINER
+97-Raven
+98-Aki Man
+
+Female:
+-------
+01-Chyna - ZOYA THE DESTROYA
+02-Stephanie McMahon - BULL NAKANO
+03-Tori - LUNA VACHON
+04-Terri Runnels - SONYA BLADE
+05-The Kat - TINA FERRARI
+06-Lita - AWESOME KONG
+07-Ivory - NINOTCHKA
+08-Jacqueline - JENNA MORASCA
+09-Linda McMahon - MADUSA
+10-Debra Williams - MANAMI TOYOTA
+11-Trish Stratus - 
+12-Mae Young - 
+13-Fabulous Moolah - 
+14-Lillian Garcia - 
+15-Mandy - 
+16-????? - 
+17-Victoria - 
+18-Bobcat -
+19-Barbara Bush - DEMENTIA
+20-Luna - KATIE VICK/RESIDENT EVIL ZOMBIE
+
+
+HAIR
+Ponytail 1 - Curly Hair Flat
+
+FRONT HAIR
+Front Hair 50 - Scott Hall/Brickowski hair
+Front Hair 63 - Curly Hair Front
+
+FACIAL HAIR
+20 - Goatee
+24 - Giant Machine Mask
+28 - Notwinski Purple Mustache
+
+MASK/ETC - MASKS
+Bat - Taskmaster
+Bat Mask - Classic Sting Revenge
+Beast - Ultimate Warrior
+Kabuki - Classic Sting World Tour
+Kane 2 - Robocop 
+Leather Mask - Wolfpack Sting
+Phantom - Crow Sting
+Serpant - nWo Sting
+Undertaker - Giant Ninja
+
+MASK/ETC - ACCESSORIES
+Austin Cap - Cap w/ no logo
+Christian - Bowtie
+Eyeglasses - Yeti
+Rikishi - Bork Lazer
+T&A - Zodiac
+X-Pac - Ryu Bandana
+
+HATS/CAPS
+Scotty Hat - Top Hat
+
+RING ATTIRE - SHORT
+Boxing 2 - Silver Shamrock Shorts
+Crash 1 - Steiner BPP
+Crash 2 - Barbarian
+Cut Jeans 4 - Stevie Richards Cutoff Jeans
+Malenko - Macho Man 3 Stars
+Rock 1 - Dusty Rhodes Polkadots
+Saturn - Scott Hall Revenge
+Shamrock - Silver Shamrock
+Terri - Razor Ramon
+Triple H - Robocop
+Valbowsky 1 - Zangief
+Valbowsky 2 - Lex Luger USA Revenge
+
+RING ATTIRE - LONG
+Al Snow - Hollywood Hogan Revenge
+APA - Syxx WCW/NWO World Tour
+Benoit - Bret Hart
+Cactus - Buff WCW/NWO World Tour
+Christian - Beefer 
+Dudleyz 1 - Macho Man half and half
+Dude Love - Sting 
+Edge - PN News
+Eddie 1 - Glacier
+Kane 1 - Faces of Fear
+Kane 2 - Harlem Heat
+Rios - Captain Insano
+Road Dogg - Zeus
+Taka - Taka/Sonya generic
+X-Pac 1 - Randy the Ram
+Original 2 - Sting Crow
+Original 3 - Yeti
+
+RING ATTIRE - PANTS
+Cut Jeans - Shorts w/ Tassles
+Leather Pants 2 - Nash Pants Revenge
+The Rock - Changed to Single Stripe
+
+RING ATTIRE - WRESTLING
+Angle 1 - Big Show Camo
+Henry - Iron Sheik FACK!
+
+RING ATTIRE - FULL
+Commish - Mabel
+Outfit 4 - Dudley Boyz
+Suits 4 - Kiryu Kazama
+Swim Suit 4 - Black Widow WCW/NWO World Tour
+Swim Suit 5 - Bull Nakano
+
+UPPER BODY - NO SLEEVE
+APA - Robocop body
+Athletic - Took out black stripes
+Basket - Earthquake + Lower
+Christian - Chris Nootwinski + Lower
+DX - Classic DX Shirt
+Female Top - Alundra Blayze
+Headbangers - Glacier
+Jackie - Captain Insano
+Jerichoholic - Dungeon of Doom Foley
+Just Bring It - Diesel
+Kane Top - Nash Revenge
+Lita - Mabel
+Rikishi - PN News
+Road Dogg - NWO
+Tanktop 3 - Steiner BPP
+Test - Reverend D-Von
+The Game - Forgive Me Uncle Eric
+Too Cool - Virgil Manager
+Val - Censored/No Sleeves
+Original 1 - Hart Foundation
+Original 2 - Sting Crow
+
+UPPER BODY - SHORT SLEEVE
+Austin 2 - Shirt and Suspenders
+Austin Jersey - Plain Baggy Shirt
+Dudleys 1 - Dudleys ECW
+Dudleys 2 - Tupac (Anarchy Rulz)
+Hardyz 2 - Macho Man half and half
+Rock - Terminator 1
+
+UPPER BODY - LONG SLEEVE
+Fire Jacket - Flannel/Deebo
+Gothic - Leprechaun Vest
+Hooded - Tenryu Yakuza Kiwami 2
+Mankind Ref - Super Giant Ninja
+Soccer - Katie Vick
+2 Layers - Evil Jim Ross 69
+
+UPPER BODY - OTHER
+Cheetah - Zangief hair
+Fitness - bWo 1/2 shirt
+Lita Top - Sonya Blade MK3
+Taped Up - Ninotchka
+Tori Top - Taz Retro picture
+Referee 2 - Luna
+Referee 3 - Yeti
+Referee 4 - Stevie Richards Bulletboys 1/2 shirt
+
+TATTOO
+Original 5 - Brickowski
+Original 6 - Kiryu Kazuma's Dragon
+
+GLOVES
+Taping - Yeti
+
+ELBOW PADS
+Angle - Jax arms
+Hardys 2 - Robocop arms
+Elbow Brace - Black Widow WCW/NWO World Tour
+
+KNEEPADS
+Mr. Ass 2 - Glacier
+Supporter 2 - Robocop legs
+
+SHOES
+Athletic 5 - Robocop
+Taped - Yeti
+
+ENTRANCE ATTIRE - COSTUMES
+DX - Dan Severn shirt
+Rikishi - Fancy Flair robe
+Showster - Hulkster
+Tazz - Turban
+Too Cool 1 - Bret Hart + Glasses
+Too Cool 2 - Varsity jacket
+Too Cool 3 - Brutus Beefcake striped jacket
+Trenchcoat - w/o bandana and glasses
+
+WEAPONS
+Roses - Chainsaw
+
+ETC
+Press Start - To Capcom style
+Grannie Body - Thick F body
+Title and menu graphics - Partially Redone
+Story mode/titles - Revamped
+Super submissions - Fixed
+Smackdown Mall - Prices are much lower
+
+Hiptoss to Submission replaced with Bodyslam to submission.
+Venis Grind and punch replaced by Hogan legdrop pose
+
+Special finisher damage mod combos
+Peoples Elbow head submission - Running Hip Drop
+Hogan Legdrop Pose - Running Legdrop
