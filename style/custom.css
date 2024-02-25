@@ -79,3 +79,13 @@ footer {
 .hide-class {
     display: none;
 }
+
+.warning {
+    color:#000!important;
+    background-color:#ffffcc!important;
+    padding: 0.5rem;
+    border:1px solid #ccc!important;
+    border-radius:12px;
+    font:12px 'Open Sans',sans-serif;
+    text-align: center;
+}
