@@ -1,0 +1,181 @@
+Stuff that I changed from WM2K
+
+MOVES CHANGED/IMPORTED (Orange in edit mode)
+----------------------
+Front Grapple
+Bossman Sidewalk Slam - WM2000 (Irish whip grapple)
+Divorce Court - Sir Antonic
+Bulldog Powerslam - Thunderbolt Jordyad
+Snake DDT - Orson
+Giant Slam - Orson
+Hiptoss to Submission - No Mercy
+Samoan Drop - Orson
+Flair Flop - No Mercy
+Bionic Elbow - Orson
+Superkick - No Mercy
+Double Underhook Backbreaker - No Mercy
+Tilt-a-whirl Backbreaker - Orson
+
+Back Grapple
+Million Dollar Dream - Retro Randy (Cobra Clutch)
+Teardrop Suplex - Krayzie2k99
+Full Nelson - Orson
+Backlund Crossface - Krayzie2k99
+
+Corner Grapple
+Banzai Drop - Krayzie2k99
+Super Razor's Edge Revenge - Krayzie2k99
+Mudhole Stomping w/o flipping off - Orson
+
+Ground Submission
+Goku Raku Stretch - No Mercy
+
+Running Ground Attack
+Running Splash - No Mercy
+Running Legdrop - No Mercy
+Running Earthquake - No Mercy
+
+Flying Laying
+Fistdrop - Orson
+
+Entry Way Taunt
+Disco Dance - No Mercy (Entry Way Taunt 15)
+Beckon - No Mercy (Entry Way Taunt Guerrero - didn't realize it was also taunt 11 in WM2K)
+Arms Up - No Mercy (Entry Way Taunt 20)
+Point - No Mercy (Taunt 82)
+
+Walking
+Power Walk - No Mercy (Generic 02)
+Run - No Mercy (Run)
+
+In ring
+Jog in Place - No Mercy (Taunt 159)
+Blueblood HHH - Retro Randy
+Sid - No Mercy (Taunt 31)
+Hulkster 3 - WM2000 (Taunt 71)
+Arms Up - WM2000 (Corner Taunt 10)
+Pray - WM2000 (Taunt 73)
+Corner Fist Pump - WM2000 (Corner Taunt 13)
+Rick Rude - WM2000 (Taunt 84)
+
+
+Taunt
+Sid - No Mercy (Taunt 31)
+Five!!! - WM2000 (Duck Taunt 15)
+Blueblood - (Retro Randy)
+
+MUSIC CHANGED
+-------------
+Al		Nikita Koloff
+Big Show	Abdullah the Butcher
+Blackman	Marcus Bagwell
+Bossman		Sid
+Brood		Tatsumi Fujinami
+Cactus		Rock and Roll Express
+Chaz		Eddie Gilbert
+Corporate	Terry Funk
+Corp Min	Tommy Rich
+D'Lo		Big Van Vader
+Double J	Stan Hansen
+Droz		Cactus Jack
+Dude		Ricky Steamboat
+DX		Paul Orndorff
+Edge		Brian Pillman
+Godfather	Rick Rude
+Hardy Boyz	Brad Armstrong
+HBK		Harlem Heat
+Headbangers	DDP
+Heat		Harley Race
+HHH		Barry Windham
+Holly		Ric Flair
+Ivory		Steven Regal
+Jericho		Kevin Sullivan
+Kane		Dangerous Alliance
+King		Sting
+Mankind		Freebirds
+Mark Henry	Varsity Club
+Meanie		Ron Simmons
+Ministry	Great Muta
+Mr Ass		Steiner Brothers
+Orig 1
+Orig 2
+Patterson	Arn/Ole Anderson
+PMS		Doom
+Raw is War	Madusa
+Road Dogg	Four Horsemen
+Rock		Hollywood Blondes
+Shamrock	Johnny B Badd
+Stone Cold	Midnight Express
+Test		Buddy Landel
+Too Cool	Stud Stable
+Tori		Road Warriors
+Undertaker	Lex Luger
+Union		Z-Man
+Val		Dr Death
+X-Pac		Dustin/Dusty Rhodes
+
+TITLES CHANGED
+--------------
+World - WWF Classic Winged Eagle
+IC - IC late 80s early 90s
+Euro - unchanged
+Hardcore - Million Dollar Belt
+Tag - unchanged
+
+Smoking Skull - WWF Classic 1985
+Womens - IC Belt late 90s
+
+TAG TEAMS
+---------
+(all can be done using default video/music choices)
+
+Lex Luger/British Bulldog - Allied Powers
+
+Bret Hart/Jim Neidhart - The Hart Foundation
+
+Owen Hart/Koko B Ware - High Energy
+
+Bart Gunn/Billy Gunn - The Smoking Gunns
+
+Jacques Rougeau/Pierre Oulette - The Quebecers
+
+Henry O Godwinn/Phineaus I Godwinn - The Godwinns
+
+Mo/Mabel - Men on a Mission
+
+Samu/Fatu - The Headshrinkers
+
+Skip/Dr Tom Pritchard - The Bodydonnas
+
+Dr Tom Pritchard/Jimmy Del Ray - The Heavenly Bodies
+
+Ted Dibiase/IRS - Money Inc.
+
+Hulk Hogan/Randy Savage - Megapowers
+
+Bret Hart/Owen Hart
+Bret Hart/British Bulldog
+Owen Hart/Yokozuna
+Owen Hart/Jim Neidhart
+Owen Hart/British Bulldog
+Owen Hart/Bob Backlund
+Razor Ramon/Savio Vega
+Razor Ramon/1-2-3 Kid
+1-2-3 Kid/Marty Janetty
+Jeff Jarrett/Jerry Lawler
+Shawn Micheals/Diesel
+Shawn Micheals/HHH
+Razor Ramon/Diesel
+Ted Dibiase/Bam Bam Bigelow
+
+TEAMS FEATURING UNLOCKABLE CHARACTERS
+
+????? ????????/Marty Janetty - ??? ???????
+
+?????/Yokozuna
+?????/Adam Bomb
+?????/?????
+
+?????/Doink
+
+?????/Hakushi
