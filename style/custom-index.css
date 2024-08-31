@@ -7,7 +7,7 @@ a {
      border: 1px dashed grey;
      border-radius: 12px;
      width: 25%;
-     margin: 0 3% 0;
+     margin: 3% 3% 0;
  }
 
 .available:hover {
