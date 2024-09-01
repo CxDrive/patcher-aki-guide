@@ -33,7 +33,7 @@ Other changes
 
 3. To run this patch
 
-The patch is provided in xdelta format, and is meant to be patched to an unmodified WWF Wrestlemania 2000 NTSC-U v1.0 (NWXE) in Z64 format.  If your ROM is in a different format (e.g. V64 or N64), you will need a tool to convert it.  I find that these work well and are pretty easy to use.
+The patch is provided in xdelta format, and is meant to be patched to an unmodified No Mercy NTSC-U v1.0 (NWXE) in Z64 format.  If your ROM is in a different format (e.g. V64 or N64), you will need a tool to convert it.  I find that these work well and are pretty easy to use.
 
 https://hack64.net/tools/swapper.php (for an online version)
 
@@ -48,7 +48,10 @@ https://patcher.aki.guide/
 
 - Patch with file withthe xdelta program (which I conviently placed in the zip file)
 
-For this game, the save file is required.  There were some things I wanted to change in the rom before I wanted to distribute the game w/o the save, mostly dealing with the character order in the select screen, but after thinking about it, I'm okay with including a ".fla" file.
+For this game, the save file is required.  There were some things I wanted to change in the rom before I wanted to distribute the game w/o the save, mostly dealing with the character order in the select screen, but after thinking about it, I'm okay with including a ".fla" file.  
+
+IMPORTANT NOTE!
+There are two ".fla" files included because some everdrive clones wont be able to use to it with out a bit of hacking the file (huge thanks to Platynumx for the work on that!).  Try the emulator one first, and if it doesn't work, try the everdrive one.
 
 4. The Groups
 
