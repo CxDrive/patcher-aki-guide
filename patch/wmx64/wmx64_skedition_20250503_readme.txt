@@ -1,0 +1,180 @@
+Wrestlemania X 64: SK Edition
+Original release - 5/20/2024
+SK edition - ?/?/2025
+
+by G.M.Spectre and S.K. Stylez
+
+
+INTRO
+-----
+So here it is, my total comversion of Wrestlemania 2000 N64 to "What if there was a WWF AKI game released in the early 90's that was based on the rosters of the 16 bit games"!
+
+Any graphics or codes I make are pretty much open for anyone to use if they want.
+
+Feedback and suggestions are welcome.
+
+
+TO PATCH THE GAME
+-----------------
+1.  Go to this C-Drive's website, which is pretty awesome for supplying everything needed except for the rom.  Also check out the other awesome creations by Freem and Ragdas, they're pretty damn good!
+ 
+https://patcher.aki.guide/
+
+2. Patch with file with the xdelta program (which I conviently placed in the zip file)
+
+For this game, the no other files are is required!  So you can play it on emulator or on real hardware!
+
+
+
+ORIGINAL CHANGES FROM WM2000
+----------------------------
+- All characters moves, stats, appearances changed
+- All music changed
+- All Arenas changed
+- Intro animation changed
+- All Tag Team entries changed
+- Spotlights, Fireworks, Fire on all entrances altered
+- All Titantrons changed
+- Menu graphics changed
+- Entrance music plays on title and in match instead of midi music
+- Moves imported
+- Story mode text changed
+- Introduction cutscene edited.
+- Title belt graphics and info changed
+- Hints added to title screen
+- Select backgrounds for wrestlers match
+- Power bar graphics changed
+- Font changed to VPW2 font
+
+For more details, I put them in "updatelist.txt"
+
+SOME CHANGES ADDED BY USING THE SK IMPROVEMENT HACK
+---------------------------------------------------
+- Addressed CAW issue where Wrestlers with the "Novice" Submission Skill changing to "Expert"
+- Tag Teams no longer need specific Music and Video combinations to enter as a Tag Team
+- Added Computer Intelligence (a HUGE timesaver for me!)
+- Added the following Move Categories to the Moves menu
+	- Countering Counters (Striking - Counter Attack)
+	- Front Super Special Move (Grappling - Front Grapple)
+	- Move Exchange (Grappling - Front Grapple)
+	- Back Super Special Move (Grappling - Back Grapple)
+	- Test Of Strength (Grappling)
+	- Pin Save (Ground Grappling - Ground Attack)
+	- Running Pin Save (Ground Grappling - Ground Attack)
+	- Double Team Flying Attack (High Flying - From Turnbuckle 1)
+	- Double Team Flying Attack To Outside (High Flying - From Turnbuckle 1)
+	- Double Team Flying Attack From Apron To Ring Standing Opponent (High Flying - Flying Body Attack)
+- Added the following options to the Fighting Style menu
+	- Irish Whip
+	- Irish Whip Evasion
+- Added 2 new options to Fighting Style - Stance
+	- Classic
+	- Giant
+- Added 2 new options to Fighting Style - Counter/Reversals
+	- Heavy Special
+	- Light-Heavy Special
+- Super Finishers are available, but none are given to the default characters.
+
+
+CHANGES SINCE ORIGINAL RELEASE
+------------------------------
+- Ported the conversion to SK Styles 1.1 Wrestlemania 2000 improvement hack
+- Fixed default names (THANKS SK!)
+- Slightly tweaked movesets with the SK Styles 1.1 hack additions
+- Some "WWF Branded" clothes in CAW taken out and replaced with more generic alternatives
+- Music reordered and ordered by artist names
+- Adjusted the rivals to some wrestlers
+- Super Piledriver Added
+- Non-working Shattered Dreams taken out
+
+- Several Faces Redone
+1-2-3 Kid
+Adam Bomb
+Bret Hart
+British Bulldog
+Diesel
+Hulk Hogan (from JordyAD's open source resources)
+Jim Neidhart
+Lex Luger
+Mr. Perfect
+Randy Savage (Freem VPW2)
+Razor Ramon
+Ted Dibiase
+Undertaker
+
+- New Managers/Uneditable Wrestlers
+Alundra Blayze
+Sherri Martel (manages Shawn Micheals)
+Afa (manages Samu and Fatu)
+Jim Cornette (manages Yokozuna, Dr. Tom Pritchard, and Jimmy Del Rey)
+Bobby Heenan (manages Mr. Perfect and Brooklyn Brawler)
+Paul Bearer (manages Undertaker)
+Brooklyn Brawler (formerly the unchoosable Dummy slot)
+
+(I attempted to make Luna Vachon, Sunny, and Mr Fuji but they didn't turn out well.  The partially finished Luna and Sunny models are in the rom if you're wondering)
+
+- All characters in original version that was set to an uneditable female slot placed to an edit slot.
+- Ted Dibiase costumes reordered and set as manager for Bam Bam Bigelow, I.R.S., and King Kong Bundy
+
+- Replace WWF Referee with Wallywood graphics
+- Goldust outfit altered with Wallywood graphics
+- Replaced Attitude microphone with New Generation microphone
+- More "WWF Branded" clothes replaced with generic alternatives
+- Fix most disappearing characters in the intro
+- Entrance glass changed to bat
+- Bret Hart and Jim Neidhart given retro Hart Foundation tops
+
+THE ROSTER
+----------
+I decided to make a roster based on the rosters for the WWF 16-bit era of games.  That includes the SNES and Genesis versions of WWF Super Wrestlemania, Royal Rumble, RAW, and the Sega CD version of Rage in the Cage.  I also added some characters that were missing from WCW SN as well as some characters, that although they didn't match the era, they were characters I still wanted to add in the game to play as.  With the hidden characters, I decided to go more the echo fighter route where a majority of the characters will be alternate versions of existing characters.
+
+As for the unlockables.  If you press Start on the title screen, you will see several hints to unlock them.  These are based on the ones from WM2K if that helps.  Just fight the correct way, or use the correct characters, and you'll have 7 more characters...
+...or you could use a Game Shark code (8109ED5A FFFF), I won't judge ya.
+
+Some of the titantron names are off since they used the same text entries as the music ones.  Nothing major though.
+
+THANKS TO
+---------
+Most of all, Freem for his very hard work on VPW Studio, I consider myself very fortunate to have the opportunity to beta test this program, and appreciate all he has done.  Also, go to Freem's VPW2 stuff and play VPW2 Freem edition (which I also used as a base for several movesets) at...
+https://vpw.ajworld.net/vpw2freem
+
+In addition to creating the WM2000 improvement hack, S.K.Styles made some great spreadsheets that I used to convert various moves and taunts from the other games with their properties intact.
+
+The gang on the "AKI Wrestling Game Hacking" and "AKI Rom Hack Room" discords helped a lot with their patience with all my questions.
+
+Thanks to Retro Randy, MelonBread, KWG, Ragdas, Barskio, AKIFan, PablosCorner, DaveSavedTheDay, ChuckiePK, TylerBlack, DylanRulez69, NamiyoVT and anyone I forgot to mention here.
+
+Sir Antonic, Rag Das, Krayzie2k99 and Orson helped out big time with some of the imported moves.
+
+Sean O Connor, AmitDaybeen and Krangledangle have been showcasing my other projects, "Project Outsider" and "WCW Saturday Night".
+
+https://www.youtube.com/@Seanomaniacwrestlingreviews
+https://www.youtube.com/@AmitDabydeen
+https://www.twitch.tv/krangledangle
+
+C-Drive for hosting my other projects at
+https://aki.guide/
+
+DJKM's old Firepro saves on FPR and FPWW gave me a good idea for character movesets.
+
+There were also various moveset and CAW info references from CAW movelists, DNewgrounds, Gazwefc
+
+The No Mercy Library - A great archive for codes and movelists.  Most of the codes I use in this mod come from here.
+http://w11.zetaboards.com/No_Mercy_Library/index/
+
+CAWPlace - A great archive for movelists and outfit ideas.
+http://cawplace.yuku.com/directory
+
+WildFB's archive - Creator of the Moveset Editor, the utility that made the hardest part of No Mercy Editing very simple.
+http://z3.invisionfree.com/WldFb_Archive_Forum/index.php
+
+OTHER INSPIRATIONS
+------------------
+Wrestling Bios - He does very detailed videos on the monday night war, and individual bios.  How did I discover him?  His bio for Glacier popped up when I was searching for it while researching for Project Outsider!  The channel is great for learning missing details about wrestling with a little humor mixed in.
+https://www.youtube.com/@WrestlingBios
+
+E-BEGGING!
+----------
+Just wanted to set one of these up.  More of a tip jar than anything.  I definitely won't be putting stuff behind a paywall.
+
+https://ko-fi.com/gmspectre
