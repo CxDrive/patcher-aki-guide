@@ -1,0 +1,176 @@
+Stuff that I changed from WM2K
+
+MOVES CHANGED (Orange in edit mode)
+-------------
+Flowing DDT - Jake Roberts DDT (by Orson)
+Rock Bottom - Rude Awakening (by Orson)
+Shake Rattle and Roll - Bionic Elbow (by Orson)
+Scoop DDT - Flair Flop
+Samurai Driver - Midnight Slam
+X-Factor - Vader Powerbomb
+
+Swinging Chokeslam - Simmons Spinebuster
+
+Double Underhook with Knee - Slapjack
+Fire Thunder - Super Piledriver (by Orson)
+Swinging DDT - Divorce Court (by Sir Antonic, changed from Downward Spiral in first release)
+
+Austin Elbow - Muta Elbow
+Road Dogg Knee - Legdrop
+
+Stage Dude - Point
+Stage Jericho - Eddy
+Stage Debra - Sid Arms
+
+In Ring Taker - Throat Slash
+In Ring D-Lo - Sting
+In Ring Jericho - Sid
+In Ring Al Snow - Jog in Place
+In Ring 4 - Rude Swivel
+
+Taunt Brian Christopher 1 - Flair Strut
+Taunt Dude Love 2 - Sid
+Taunt Brian Christopher 2 - Moonwalk
+
+Walk D-Lo - NM Run
+Walk Al Snow - NM Walk 2
+
+ARENAS CHANGED
+--------------
+Raw		WCW Saturday Night
+Heat		WCW Worldwide
+
+King of the Ring	Great American Bash
+Summerslam		Beach Blast
+Survivor Series		Halloween Havoc (just ignore that it's in November)
+Royal Rumble		Starrcade
+Wrestlemania		Superbrawl
+
+MUSIC CHANGED
+-------------
+Al		Nikita Koloff
+Big Show	Abdullah the Butcher
+Blackman	Marcus Bagwell
+Bossman		Sid
+Brood		Tatsumi Fujinami
+Cactus		Rock and Roll Express
+Chaz		Eddie Gilbert
+Corporate	Terry Funk
+Corp Min	Tommy Rich
+D'Lo		Big Van Vader
+Double J	Stan Hansen
+Droz		Cactus Jack
+Dude		Ricky Steamboat
+DX		Paul Orndorff
+Edge		Brian Pillman
+Godfather	Rick Rude
+Hardy Boyz	Brad Armstrong
+HBK		Harlem Heat
+Headbangers	DDP
+Heat		Harley Race
+HHH		Barry Windham
+Holly		Ric Flair
+Ivory		Steven Regal
+Jericho		Kevin Sullivan
+Kane		Dangerous Alliance
+King		Sting
+Mankind		Freebirds
+Mark Henry	Varsity Club
+Meanie		Ron Simmons
+Ministry	Great Muta
+Mr Ass		Steiner Brothers
+Orig 1
+Orig 2
+Patterson	Arn/Ole Anderson
+PMS		Doom
+Raw is War	Madusa
+Road Dogg	Four Horsemen
+Rock		Hollywood Blondes
+Shamrock	Johnny B Badd
+Stone Cold	Midnight Express
+Test		Buddy Landel
+Too Cool	Stud Stable
+Tori		Road Warriors
+Undertaker	Lex Luger
+Union		Z-Man
+Val		Dr Death
+X-Pac		Dustin/Dusty Rhodes
+
+TITLES CHANGED
+--------------
+World - WCW title (NEW)
+IC - US (WCW Revenge)
+Euro - TV (WCW Revenge)
+Hardcore - Big Gold NWA (WCW Revenge)
+Tag - WCW tag (WCW Revenge)
+
+Smoking Skull - ????? (VPW2)
+Womens - IWGP (VPW2)
+
+TAG TEAMS
+---------
+(all can be done using default video/music choices)
+
+FOUR HORSEMEN
+Flair & Arn
+Arn & Tully
+Arn & Barry Windham
+Arn & Ole Anderson
+
+FREEBIRDS
+Hayes & Garvin
+Hayes & Gordy
+Garvin & Gordy
+
+VARSITY CLUB
+Rotunda & Rick Steiner
+Rotunda & Dr Death
+
+ROAD WARRIORS
+Hawk & Animal
+
+STEINER BROTHERS
+Rick & Scott
+
+MIDNIGHT EXPRESS
+Stan Lane & Bobby Eaton
+
+ROCK AND ROLL EXPRESS
+Ricky Morton & Robert Gibson
+
+DOOM
+Ron Simmons & Butch Reed
+
+HOLLYWOOD BLONDES
+Steve Austin & Brian Pillman
+
+HARLEM HEAT
+Booker T & Stevie Ray
+
+STUD STABLE
+Bunkhouse Buck & Col Parker
+
+MASTERS OF THE POWERBOMB
+Sid & Vader
+
+J-TEX
+Funk & Muta
+
+NO TEAM NAME
+Luger & Sting
+Dustin Rhodes & Barry Windham
+Dr Death & Gordy
+Arn Anderson & Larry Z
+Kevin Sullivan & Cactus Jack
+Cactus Jack & Abdullah
+Steven Regal & Bobby Eaton
+Barry Windham & Brian Pillman
+Brian Pillman & Z-Man
+Rich & Morton
+Sid Vicious & Dan Spivey
+Sid Vicious & Stan Hansen
+Dusty Rhodes & Dustin
+Dusty Rhodes & Koloff
+
+
+
