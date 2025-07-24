@@ -14,50 +14,38 @@
 
 	<!-- Rom Patcher JS initialization -->
 	<script type="text/javascript">
-		window.addEventListener('load', function (evt) {
-		const myPatcherSettings={
-			language: 'en',
-			requireValidation: false, /* if true, user won't be able to apply patch if the provided ROM is not valid*/
-			allowDropFiles: false /* if true, it adds basic drag and drop support */
-		};
-			try {
-				RomPatcherWeb.initialize(myPatcherSettings, {
-					file: '../patch/ecwhpm/ecwhpm_version_skedition_v11_20250309.xdelta', //zip containing patches
+		window.addEventListener('load', function(){
+			const myPatcherSettings={
+				language: 'en',
+				requireValidation: true, /* if true, user won't be able to apply patch if the provided ROM is not valid*/
+				allowDropFiles: false /* if true, it adds basic drag and drop support */
+			};
+			RomPatcherWeb.initialize(myPatcherSettings,
+				{
+					file: '../patch/ecwhpm/ecwhpm_version_skedition_v11_20250309.xdelta',
 					name: 'ECW House Party Mixtape (SK Ed. v1.1)',
 					description: 'English fan translation for Game',
-					outputName: 'ECW House Party Mixtape (SK Ed. v1.1)', //patched ROM name
-					inputCrc32: 0x0B50B4C6,
-					inputMd5: 'd9030ca30e4d1af805acce1bfed988cc'
-				}, {
-					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302.xdelta', //zip containing patches
+					outputName: 'ECW House Party Mixtape (SK Ed. v1.1)',
+					inputCrc32: 0x0B50B4C6
+				},{
+					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302.xdelta',
 					name: 'ECW House Party Mixtape (SK Edition)',
 					description: 'English fan translation for Game',
-					outputName: 'ECW House Party Mixtape (SK Edition)', //patched ROM name
-					inputCrc32: 0x0B50B4C6,
-					inputMd5: 'd9030ca30e4d1af805acce1bfed988cc'
-				}, {
-					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta', //zip containing patches
+					outputName: 'ECW House Party Mixtape (SK Edition)',
+					inputCrc32: 0x0B50B4C6
+				},{
+					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
 					name: 'ECW House Party Mixtape (SK Ed. Alt)',
 					description: 'English fan translation for Game',
-					outputName: 'ECW House Party Mixtape (SK Ed. Alt)', //patched ROM name
-					inputCrc32: 0x0B50B4C6,
-					inputMd5: 'd9030ca30e4d1af805acce1bfed988cc'
-				}, {
-					file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta', //zip containing patches
+					outputName: 'ECW House Party Mixtape (SK Ed. Alt)',
+					inputCrc32: 0x0B50B4C6
+				},{
+					file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta',
 					name: 'ECW House Party Mixtape (Beta 0.50)',
 					description: 'English fan translation for Game',
-					outputName: 'ECW House Party Mixtape (Beta 0.50)', //patched ROM name
-					inputCrc32: 0x0B50B4C6,
-					inputMd5: 'd9030ca30e4d1af805acce1bfed988cc'
+					outputName: 'ECW House Party Mixtape (Beta 0.50)',
+					inputCrc32: 0x0B50B4C6
 				});
-			} catch (err) {
-				var message = err.message;
-				if (/incompatible browser/i.test(message) || /variable RomPatcherWeb/i.test(message))
-					message = 'Your browser is outdated and it is not compatible with this app.';
-
-				document.getElementById('rom-patcher-container').innerHTML = message;
-				document.getElementById('rom-patcher-container').style.color = 'red';
-			}
 		});
 	</script>
 </head>
