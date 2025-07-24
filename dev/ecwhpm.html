@@ -16,31 +16,33 @@
 	<script type="text/javascript">
 		window.addEventListener('load', function (evt) {
 			try {
-				RomPatcherWeb.initialize({
+				RomPatcherWeb.initialize(
+				{
 					language: 'en', //default: en
 					requireValidation: true,
 					allowDropFiles: false,
-					},
-				file: [{
-					file: '../patch/ecwhpm/ecwhpm_version_skedition_v11_20250309.xdelta',
+				},
+				file: '../patch/ecwhpm/'
+				patches: [{
+					file: 'ecwhpm_version_skedition_v11_20250309.xdelta',
 					name: 'ECW House Party Mixtape (SK Ed. v1.1)',
 					description: 'English fan translation for Game',
 					outputName: 'ECW House Party Mixtape (SK Ed. v1.1)',
 					inputCrc32: 0x0B50B4C6
 				},{
-					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302.xdelta',
+					file: 'ecwhpm_version_skedition_20250302.xdelta',
 					name: 'ECW House Party Mixtape (SK Edition)',
 					description: 'English fan translation for Game',
 					outputName: 'ECW House Party Mixtape (SK Edition)',
 					inputCrc32: 0x0B50B4C6
 				},{
-					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
+					file: 'ecwhpm_version_skedition_20250302_alt.xdelta',
 					name: 'ECW House Party Mixtape (SK Ed. Alt)',
 					description: 'English fan translation for Game',
 					outputName: 'ECW House Party Mixtape (SK Ed. Alt)',
 					inputCrc32: 0x0B50B4C6
 				},{
-					file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta',
+					file: 'ecwhpm_version_beta050_20241229.xdelta',
 					name: 'ECW House Party Mixtape (Beta 0.50)',
 					description: 'English fan translation for Game',
 					outputName: 'ECW House Party Mixtape (Beta 0.50)',
