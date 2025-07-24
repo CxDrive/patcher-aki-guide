@@ -15,11 +15,13 @@
 	<!-- Rom Patcher JS initialization -->
 	<script type="text/javascript">
 		window.addEventListener('load', function (evt) {
+		const myPatcherSettings={
+			language: 'en',
+			requireValidation: false, /* if true, user won't be able to apply patch if the provided ROM is not valid*/
+			allowDropFiles: false /* if true, it adds basic drag and drop support */
+		};
 			try {
-				RomPatcherWeb.initialize({
-					language: 'en', //default: en
-					requireValidation: true
-				}, {
+				RomPatcherWeb.initialize(myPatcherSettings, {
 					file: '../patch/ecwhpm/ecwhpm_version_skedition_v11_20250309.xdelta', //zip containing patches
 					name: 'ECW House Party Mixtape (SK Ed. v1.1)',
 					description: 'English fan translation for Game',
