@@ -18,13 +18,34 @@
 			try {
 				RomPatcherWeb.initialize({
 					language: 'en', //default: en
-					requireValidation: false
+					requireValidation: true
 				}, {
 					file: '../patch/ecwhpm/ecwhpm_version_skedition_v11_20250309.xdelta', //zip containing patches
 					name: 'ECW House Party Mixtape (SK Ed. v1.1)',
 					description: 'English fan translation for Game',
 					outputName: 'ECW House Party Mixtape (SK Ed. v1.1)', //patched ROM name
-					inputCrc32:0x0B50B4C6,
+					inputCrc32: 0x0B50B4C6,
+					inputMd5: 'd9030ca30e4d1af805acce1bfed988cc',
+				}, {
+					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302.xdelta', //zip containing patches
+					name: 'ECW House Party Mixtape (SK Edition)',
+					description: 'English fan translation for Game',
+					outputName: 'ECW House Party Mixtape (SK Edition)', //patched ROM name
+					inputCrc32: 0x0B50B4C6,
+					inputMd5: 'd9030ca30e4d1af805acce1bfed988cc',
+				}, {
+					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta', //zip containing patches
+					name: 'ECW House Party Mixtape (SK Ed. Alt)',
+					description: 'English fan translation for Game',
+					outputName: 'ECW House Party Mixtape (SK Ed. Alt)', //patched ROM name
+					inputCrc32: 0x0B50B4C6,
+					inputMd5: 'd9030ca30e4d1af805acce1bfed988cc',
+				}, {
+					file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta', //zip containing patches
+					name: 'ECW House Party Mixtape (Beta 0.50)',
+					description: 'English fan translation for Game',
+					outputName: 'ECW House Party Mixtape (Beta 0.50)', //patched ROM name
+					inputCrc32: 0x0B50B4C6,
 					inputMd5: 'd9030ca30e4d1af805acce1bfed988cc',
 				});
 			} catch (err) {
