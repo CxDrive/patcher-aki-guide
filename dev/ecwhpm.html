@@ -14,44 +14,54 @@
 
 	<!-- Rom Patcher JS initialization -->
 	<script type="text/javascript">
-	const myPatcherSettings={
+	var myPatcherSettings={
 				language: 'en',
 				requireValidation: false, /* if true, user won't be able to apply patch if the provided ROM is not valid*/
 				allowDropFiles: false /* if true, it adds basic drag and drop support */
 			};
-			let currentPatch={
+			var currentPatch={
 				file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
 				name: 'ECW House Party Mixtape (SK Ed. Alt)',
 				description: 'English fan translation for Game',
 				outputName: 'ECW House Party Mixtape (SK Ed. Alt)',
 				inputCrc32: 0x0B50B4C6
 			};
-	function changeTheVariable() {
-			let currentPatch={
-				file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta',
+			var embededPatchesInfo=[{
+file: 'other_patches.zip',
+name: 'Other patches',
+patches: [
+file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta',
 				name: 'ECW House Party Mixtape (Beta 0.50)',
 				description: 'English fan translation for Game',
 				outputName: 'ECW House Party Mixtape (Beta 0.50)',
 				inputCrc32: 0x0B50B4C6
-			};
-			RomPatcherWeb.initialize(myPatcherSettings, currentPatch)
-			};
-		window.addEventListener('load', function (evt) {
-			try {
-				RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
-			} catch (err) {
-				var message = err.message;
-				if (/incompatible browser/i.test(message) || /variable RomPatcherWeb/i.test(message))
-					message = 'Your browser is outdated and it is not compatible with this app.';
+			].
+			},
+{
+file: 'other_patche5s.zip',
+name: 'Other patches',
+patches: [
+file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
+				name: 'ECW House Party Mixtape (SK Ed. Alt)',
+				description: 'English fan translation for Game',
+				outputName: 'ECW House Party Mixtape (SK Ed. Alt)',
+				inputCrc32: 0x0B50B4C6
+			]
+			}];
 
-				document.getElementById('rom-patcher-container').innerHTML = message;
-				document.getElementById('rom-patcher-container').style.color = 'red';
-			}
-		});
-	</script>
+
+	window.addEventListener('load', function(){
+		const myPatcherSettings={
+			language: 'en',
+			requireValidation: false, /* if true, user won't be able to apply patch if the provided ROM is not valid*/
+			allowDropFiles: false /* if true, it adds basic drag and drop support */
+		};
+		RomPatcherWeb.initialize(myPatcherSettings, embededPatchesInfo);
+	});
+</script>
 </head>
 
-<body style="font: 15px 'Open Sans', sans-serif; background-color: #31343a; color: #e4e4e6;">
+ <body style="font: 15px 'Open Sans', sans-serif; background-color: #31343a; color: #e4e4e6;">
 	<header style="text-align: center">
 		<h1>Rom Patcher JS</h1>
 		<p>
@@ -62,8 +72,7 @@
 				target="_blank">sourcecode</a> to see how it's done.
 		</p>
 
-		<input type="number" id="inputField">
-<button onclick="changeTheVariable()" type="button" id="pushMe">PUSH ME</button>
+
 
 	</header>
 
