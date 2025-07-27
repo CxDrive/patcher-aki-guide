@@ -9,37 +9,39 @@
 
 
 	<!-- Rom Patcher JS needed CSS/JS files -->
-	<link type="text/css" rel="stylesheet" href="rom-patcher-js/style.css" media="all" />
-	<script type="text/javascript" src="rom-patcher-js/RomPatcher.webapp.js"></script>
+	<link type="text/css" rel="stylesheet" href="./rom-patcher-js/style.css" media="all" />
+	<script type="text/javascript" src="./rom-patcher-js/RomPatcher.webapp.js"></script>
 
 	<!-- Rom Patcher JS initialization -->
 	<script type="text/javascript">
-	window.addEventListener('load', function(){
-		const myPatcherSettings={
-			language: 'en',
-			requireValidation: false, /* if true, user won't be able to apply patch if the provided ROM is not valid*/
-			allowDropFiles: false /* if true, it adds basic drag and drop support */
-		};
-		RomPatcherWeb.initialize(
-			myPatcherSettings,
-			{
-				file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
-				name: 'ECW House Party Mixtape (SK Ed. Alt)',
-				description: 'English fan translation for Game',
-				outputName: 'ECW House Party Mixtape (SK Ed. Alt)',
-				inputCrc32: 0x0B50B4C6
-			},
-			{
-				file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta',
-				name: 'ECW House Party Mixtape (Beta 0.50)',
-				description: 'English fan translation for Game',
-				outputName: 'ECW House Party Mixtape (Beta 0.50)',
-				inputCrc32: 0x0B50B4C6
-			}
-		);
-	});
-</script>
+		window.addEventListener('load', function (evt) {
+			try {
+				RomPatcherWeb.initialize({
+					language: 'en', //default: en
+					requireValidation: true
+				}, {
+					file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
+					name: 'ECW House Party Mixtape (SK Ed. Alt)',
+					description: 'English fan translation for Game',
+					outputName: 'ECW House Party Mixtape (SK Ed. Alt)',
+					inputCrc32: 0x0B50B4C6
+				}, {
+					file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta',
+					name: 'ECW House Party Mixtape (Beta 0.50)',
+					description: 'English fan translation for Game',
+					outputName: 'ECW House Party Mixtape (Beta 0.50)',
+					inputCrc32: 0x0B50B4C6
+				});
+			} catch (err) {
+				var message = err.message;
+				if (/incompatible browser/i.test(message) || /variable RomPatcherWeb/i.test(message))
+					message = 'Your browser is outdated and it is not compatible with this app.';
 
+				document.getElementById('rom-patcher-container').innerHTML = message;
+				document.getElementById('rom-patcher-container').style.color = 'red';
+			}
+		});
+	</script>
 </head>
 
 <body style="font: 15px 'Open Sans', sans-serif; background-color: #31343a; color: #e4e4e6;">
@@ -74,6 +76,14 @@
 			<div class="rom-patcher-row">
 				<div class="text-right">CRC32:</div>
 				<div class="text-truncate"><span id="rom-patcher-span-crc32"></span></div>
+			</div>
+			<div class="rom-patcher-row">
+				<div class="text-right">MD5:</div>
+				<div class="text-truncate"><span id="rom-patcher-span-md5"></span></div>
+			</div>
+			<div class="rom-patcher-row">
+				<div class="text-right">SHA-1:</div>
+				<div class="text-truncate"><span id="rom-patcher-span-sha1"></span></div>
 			</div>
 			<div class="rom-patcher-row" id="rom-patcher-row-info-rom">
 				<div class="text-right">ROM:</div>
