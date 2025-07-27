@@ -14,40 +14,25 @@
 
 	<!-- Rom Patcher JS initialization -->
 	<script type="text/javascript">
-	var myPatcherSettings={
+	const myPatcherSettings={
 				language: 'en',
 				requireValidation: false, /* if true, user won't be able to apply patch if the provided ROM is not valid*/
 				allowDropFiles: false /* if true, it adds basic drag and drop support */
 			};
-			var currentPatch={
+			const currentPatch={
 				file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
 				name: 'ECW House Party Mixtape (SK Ed. Alt)',
 				description: 'English fan translation for Game',
 				outputName: 'ECW House Party Mixtape (SK Ed. Alt)',
 				inputCrc32: 0x0B50B4C6
 			};
-			var embededPatchesInfo=[{
-file: 'other_patches.zip',
-name: 'Other patches',
-patches: [
-file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta',
+			const betaPatch={
+				file: '../patch/ecwhpm/ecwhpm_version_beta050_20241229.xdelta',
 				name: 'ECW House Party Mixtape (Beta 0.50)',
 				description: 'English fan translation for Game',
 				outputName: 'ECW House Party Mixtape (Beta 0.50)',
 				inputCrc32: 0x0B50B4C6
-			].
-			},
-{
-file: 'other_patche5s.zip',
-name: 'Other patches',
-patches: [
-file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
-				name: 'ECW House Party Mixtape (SK Ed. Alt)',
-				description: 'English fan translation for Game',
-				outputName: 'ECW House Party Mixtape (SK Ed. Alt)',
-				inputCrc32: 0x0B50B4C6
-			]
-			}];
+				};
 
 
 	window.addEventListener('load', function(){
@@ -56,7 +41,7 @@ file: '../patch/ecwhpm/ecwhpm_version_skedition_20250302_alt.xdelta',
 			requireValidation: false, /* if true, user won't be able to apply patch if the provided ROM is not valid*/
 			allowDropFiles: false /* if true, it adds basic drag and drop support */
 		};
-		RomPatcherWeb.initialize(myPatcherSettings, embededPatchesInfo);
+		RomPatcherWeb.initialize(myPatcherSettings, currentPatch, betaPatch);
 	});
 </script>
 </head>
