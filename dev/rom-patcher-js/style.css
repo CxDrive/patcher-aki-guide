@@ -45,6 +45,10 @@ header h1 {
 
 }
 
+#rom-patcher-container input {
+	color: black;
+}
+
 /* Rom Patcher JS - container */
 #rom-patcher-container {
 	-moz-user-select: none;
