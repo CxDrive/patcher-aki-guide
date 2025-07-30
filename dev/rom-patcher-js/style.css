@@ -176,7 +176,7 @@ header h1 {
 	outline: none;
 	border: none;
 	border-radius: 3px;
-	background-color: #e0e0e0;
+	background-color: #edefef;
 }
 
 #rom-patcher-container input[type=file]:focus:not(:disabled),
