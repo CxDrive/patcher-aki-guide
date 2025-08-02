@@ -4,6 +4,7 @@ var dataset = [
     {
         "code": "vpw64st",
         "codeName": "Virtual Pro Wrestling 64 - English Translation",
+        "category": "translation",
         "creator": "startrinket",
         "creatorName": "StarTrinket",
         "version": "v1.77",
@@ -28,6 +29,7 @@ var dataset = [
     {
         "code": "revenji",
         "codeName": "WCW-nWo Revenji",
+        "category": "hack",
         "creator": "ragdas",
         "creatorName": "ragdas",
         "version": "Release 1",
@@ -52,6 +54,7 @@ var dataset = [
     {
         "code": "summit",
         "codeName": "SUMMIT Virtual Pro Wrestling Gamma",
+        "category": "hack",
         "creator": "ragdas",
         "creatorName": "ragdas",
         "version": "Release 1",
@@ -76,6 +79,7 @@ var dataset = [
     {
         "code": "outsider",
         "codeName": "Project Outsider",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "Beta v0.98",
@@ -100,6 +104,7 @@ var dataset = [
     {
         "code": "lfdt",
         "codeName": "La Fin Du Tour - Virtual Pro Wrestling Alpha",
+        "category": "hack",
         "creator": "ragdas",
         "creatorName": "ragdas",
         "version": "Release 1",
@@ -124,6 +129,7 @@ var dataset = [
     {
         "code": "wcwsatnight",
         "codeName": "WCW Saturday Night",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "v1.0",
@@ -148,6 +154,7 @@ var dataset = [
     {
         "code": "salvo",
         "codeName": "Virtual Pro Wrestling Salvo",
+        "category": "hack",
         "creator": "ragdas",
         "creatorName": "ragdas",
         "version": "Release 1",
@@ -172,6 +179,7 @@ var dataset = [
     {
         "code": "wmx64",
         "codeName": "WWF Wrestlemania X 64",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "v1.0",
@@ -196,6 +204,7 @@ var dataset = [
     {
         "code": "vpw2fe",
         "codeName": "VPW2 freem Edition - The 90% Release",
+        "category": "hack",
         "creator": "freem",
         "creatorName": "freem",
         "version": "The 90% Release",
@@ -220,6 +229,7 @@ var dataset = [
     {
         "code": "outsider",
         "codeName": "Project Outsider",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "Plus",
@@ -244,6 +254,7 @@ var dataset = [
     {
         "code": "wm2kv",
         "codeName": "WWF WrestleMania 2000 (V1.1)",
+        "category": "improvement",
         "creator": "skstylez",
         "creatorName": "S.K. Stylez",
         "version": "v1.1",
@@ -268,6 +279,7 @@ var dataset = [
     {
         "code": "ecwhpm",
         "codeName": "ECW House Party Mixtape",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "Beta 0.50",
@@ -292,6 +304,7 @@ var dataset = [
     {
         "code": "wm2kv",
         "codeName": "WWF WrestleMania 2000 (V1.1)",
+        "category": "improvement",
         "creator": "skstylez",
         "creatorName": "S.K. Stylez",
         "version": "v1.1",
@@ -316,6 +329,7 @@ var dataset = [
     {
         "code": "ecwhpm",
         "codeName": "ECW House Party Mixtape",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "SK Edition (Alt)",
@@ -340,6 +354,7 @@ var dataset = [
     {
         "code": "ecwhpm",
         "codeName": "ECW House Party Mixtape",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "SK Edition",
@@ -364,6 +379,7 @@ var dataset = [
     {
         "code": "ecwhpm",
         "codeName": "ECW House Party Mixtape",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "SK Edition v1.1",
@@ -388,6 +404,7 @@ var dataset = [
     {
         "code": "vpw2rr",
         "codeName": "VPW2 - Royal Road",
+        "category": "hack",
         "creator": "rey",
         "creatorName": "rey",
         "version": "Beta 3",
@@ -412,6 +429,7 @@ var dataset = [
     {
         "code": "vpw2rr",
         "codeName": "VPW2 - Royal Road",
+        "category": "hack",
         "creator": "rey",
         "creatorName": "rey",
         "version": "RC1",
@@ -436,6 +454,7 @@ var dataset = [
     {
         "code": "vpw2rr",
         "codeName": "VPW2 - Royal Road",
+        "category": "hack",
         "creator": "rey",
         "creatorName": "rey",
         "version": "RC2",
@@ -460,6 +479,7 @@ var dataset = [
     {
         "code": "vpw2rr",
         "codeName": "VPW2 - Royal Road",
+        "category": "hack",
         "creator": "rey",
         "creatorName": "rey",
         "version": "RC3",
@@ -484,6 +504,7 @@ var dataset = [
     {
         "code": "wmx64",
         "codeName": "WWF Wrestlemania X 64",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "SK Edition",
@@ -508,6 +529,7 @@ var dataset = [
     {
         "code": "vpw2rr",
         "codeName": "VPW2 - Royal Road",
+        "category": "hack",
         "creator": "rey",
         "creatorName": "rey",
         "version": "Fin",
@@ -532,6 +554,7 @@ var dataset = [
     {
         "code": "wmx64",
         "codeName": "WWF Wrestlemania X 64",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "SK Edition v1.1",
@@ -556,6 +579,7 @@ var dataset = [
     {
         "code": "ajpw64",
         "codeName": "All-Japan Pro Wrestling 64",
+        "category": "hack",
         "creator": "yeelord",
         "creatorName": "Chris (aka yeelord)",
         "version": "80% Complete Demo",
@@ -580,6 +604,7 @@ var dataset = [
     {
         "code": "ajpw64",
         "codeName": "All-Japan Pro Wrestling 64",
+        "category": "hack",
         "creator": "yeelord",
         "creatorName": "Chris (aka yeelord)",
         "version": "Beta 2",
@@ -604,6 +629,7 @@ var dataset = [
     {
         "code": "wcwsatnight",
         "codeName": "WCW Saturday Night",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "SK Edition",
@@ -628,6 +654,7 @@ var dataset = [
     {
         "code": "wcwsatnight",
         "codeName": "WCW Saturday Night",
+        "category": "hack",
         "creator": "gmspectre",
         "creatorName": "G.M.Spectre",
         "version": "SK Edition (Bugfix)",
@@ -652,6 +679,7 @@ var dataset = [
     {
         "code": "9ug",
         "codeName": "WCW vs. nWo: 9 Underground",
+        "category": "hack",
         "creator": "ragdas",
         "creatorName": "ragdas",
         "version": "Release 1",
@@ -676,6 +704,7 @@ var dataset = [
     {
         "code": "uanomercy10",
         "codeName": "WWF No Mercy - Unlock All (v1.0)",
+        "category": "unlock",
         "creator": "",
         "creatorName": "",
         "version": "Final",
@@ -684,8 +713,8 @@ var dataset = [
         "file": "20001114_uanomercy10_patch.xdelta",
         "inputRom": "WWF No Mercy (USA)",
         "inputCrc32": "0xB33F44F0",
-        "add1": "",
-        "add1Title": "",
+        "add1": "20001114_uanomercy10_readme.txt",
+        "add1Title": "Readme",
         "add2": "",
         "add2Title": "",
         "add3": "",
@@ -700,6 +729,7 @@ var dataset = [
     {
         "code": "uanomercy11",
         "codeName": "WWF No Mercy - Unlock All (v1.1)",
+        "category": "unlock",
         "creator": "",
         "creatorName": "",
         "version": "Final",
@@ -708,8 +738,8 @@ var dataset = [
         "file": "20001114_uanomercy11_patch.xdelta",
         "inputRom": "WWF No Mercy (USA) (Rev 1)",
         "inputCrc32": "0xBACEEA13",
-        "add1": "",
-        "add1Title": "",
+        "add1": "20001114_uanomercy11_readme.txt",
+        "add1Title": "Readme",
         "add2": "",
         "add2Title": "",
         "add3": "",
@@ -724,16 +754,17 @@ var dataset = [
     {
         "code": "uavpw2",
         "codeName": "Virtual Pro Wrestling 2 - Unlock All",
+        "category": "unlock",
         "creator": "",
         "creatorName": "",
         "version": "Final",
         "date": "20000128",
-        "outputName": "Virtual Pro Wrestling 2 - Unlock All (Japan)",
+        "outputName": "Virtual Pro Wrestling 2 - Oudou Keishou - Unlock All (Japan)",
         "file": "20000128_uavpw2_patch.xdelta",
         "inputRom": "Virtual Pro Wrestling 2 - Oudou Keishou (Japan)",
         "inputCrc32": "0xF620835D",
-        "add1": "",
-        "add1Title": "",
+        "add1": "20000128_uavpw2_readme.txt",
+        "add1Title": "Readme",
         "add2": "",
         "add2Title": "",
         "add3": "",
@@ -748,6 +779,7 @@ var dataset = [
     {
         "code": "uarevenge",
         "codeName": "WCW-nWo Revenge - Unlock All",
+        "category": "unlock",
         "creator": "",
         "creatorName": "",
         "version": "Final",
@@ -756,8 +788,8 @@ var dataset = [
         "file": "19981026_uarevenge_patch.xdelta",
         "inputRom": "WCW-nWo Revenge (USA)",
         "inputCrc32": "0x54CBAAA8",
-        "add1": "",
-        "add1Title": "",
+        "add1": "19981026_uarevenge_readme.txt",
+        "add1Title": "Readme",
         "add2": "",
         "add2Title": "",
         "add3": "",
@@ -772,6 +804,7 @@ var dataset = [
     {
         "code": "uawm2k",
         "codeName": "WWF WrestleMania 2000 - Unlock All",
+        "category": "unlock",
         "creator": "",
         "creatorName": "",
         "version": "Final",
@@ -780,8 +813,8 @@ var dataset = [
         "file": "19991118_uawm2k_patch.xdelta",
         "inputRom": "WWF WrestleMania 2000 (USA)",
         "inputCrc32": "0x0B50B4C6",
-        "add1": "",
-        "add1Title": "",
+        "add1": "19991118_uawm2k_readme.txt",
+        "add1Title": "Readme",
         "add2": "",
         "add2Title": "",
         "add3": "",
