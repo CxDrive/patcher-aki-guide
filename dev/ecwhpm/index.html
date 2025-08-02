@@ -142,7 +142,7 @@
           const currentPatch = {
               file: propertyFile,
               name: propertyName,
-              inputCrc32: propertyCrc,
+              inputCrc32: Number(propertyCrc),
               outputName: propertyOutput
           };
           RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
