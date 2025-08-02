@@ -18,6 +18,6 @@ document.getElementById("summary-website").innerHTML = '<a href="' + currentData
 
 
 var propertyFile = './files/' + currentData.code + '/' + currentData.file;
-var propertyName = currentData.codeName;
+var propertyName = currentData.outputName;
 var propertyCrc = currentData.inputCrc32;
 var propertyOutput = currentData.outputName;
