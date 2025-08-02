@@ -139,10 +139,11 @@
               requireValidation: true,
               allowDropFiles: false
           };
+          console.log(parseInt(propertyCrc, 16));
           const currentPatch = {
               file: propertyFile,
               name: propertyName,
-              inputCrc32: Number(propertyCrc),
+              inputCrc32: parseInt(propertyCrc, 16),
               outputName: propertyOutput
           };
           RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
