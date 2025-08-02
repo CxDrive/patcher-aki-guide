@@ -9,7 +9,7 @@ const options = {
 };
 
 for (let i = 0; i < dataset.length; i++) {
-    str += '<tr><td>' + moment(dataset[i].date).format('MMM D YYYY') + '</td>' + '<td>' + dataset[i].codeName + '</td>' + '<td>' + dataset[i].creatorName + '</td>' + '<td><a href="../' + dataset[i].code + '/' + dataset[i].file + '">' + dataset[i].version + '</a></td><td><a href="../' + dataset[i].code + '/' + dataset[i].add1 + '">link</a></td></tr>'
+    str += '<tr><td>' + moment(dataset[i].date).format('MMM D YYYY') + '</td>' + '<td>' + dataset[i].codeName + '</td>' + '<td>' + dataset[i].creatorName + '</td>' + '<td><a href="../files/' + dataset[i].code + '/' + dataset[i].file + '">' + dataset[i].version + '</a></td><td><a href="../files/' + dataset[i].code + '/' + dataset[i].add1 + '">link</a></td></tr>'
 };
 
 str += '</tbody></table>';

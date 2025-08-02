@@ -20,15 +20,15 @@
     <meta name="keywords" content="xdelta,patcher,online,html5,web,rom,patch,hack,translation"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 
-    <link rel="shortcut icon" href="./_assets/img/app_icon_16.png" type="image/png" sizes="16x16"/>
-    <link rel="shortcut icon" href="./_assets/img/app_icon_192.png" type="image/png" sizes="192x192"/>
+    <link rel="shortcut icon" href="./assets/img/app_icon_16.png" type="image/png" sizes="16x16"/>
+    <link rel="shortcut icon" href="./assets/img/app_icon_192.png" type="image/png" sizes="192x192"/>
 
     <!-- iOS icons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./_assets/img/app_icon_114.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="./_assets/img/app_icon_114.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="./_assets/img/app_icon_144.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="./_assets/img/app_icon_144.png" />
-    <link rel="apple-touch-icon" href="./_assets/img/app_icon_192.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/app_icon_114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/app_icon_114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/app_icon_144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/app_icon_144.png" />
+    <link rel="apple-touch-icon" href="./assets/img/app_icon_192.png" />
 
     <link type="text/css" rel="stylesheet" href="./rom-patcher-js/style.css" media="all" />
 
@@ -127,8 +127,8 @@
       </div>
     </footer>
 
-    <script type="text/javascript" src="./_assets/js/akipatchdb.js"></script>
-    <script type="text/javascript" src="./_assets/js/akipatch-root.js"></script>
+    <script type="text/javascript" src="./assets/js/akipatchdb.js"></script>
+    <script type="text/javascript" src="./assets/js/akipatch.js"></script>
 
     <script type="text/javascript" src="./rom-patcher-js/RomPatcher.webapp.js"></script>
 
@@ -139,11 +139,11 @@
               requireValidation: true,
               allowDropFiles: false
           };
-          console.log(parseInt(propertyCrc, 16));
+          const propertyCrc32 = parseInt(propertyCrc, 16);
           const currentPatch = {
               file: propertyFile,
               name: propertyName,
-              inputCrc32: parseInt(propertyCrc, 16),
+              inputCrc32: propertyCrc32,
               outputName: propertyOutput
           };
           RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
