@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html translate="no">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <title>ECW House Party Mixtape - ROM Patcher</title>
+
+    <meta property="og:title" content="ECW House Party Mixtape - ROM Patcher" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Online, web-based ROM patcher for ECW House Party Mixtape." />
+    <meta property="og:url" content="https://patcher.aki.guide/ecwhpm/" />
+    <meta property="og:site_name" content="patcher.aki.guide" />
+    <meta property="og:image" content="https://patcher.aki.guide/style/img/ogp_ecwhpm.png"/>
+
+    <meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content="Online, web-based ROM patcher for ECW House Party Mixtape." />
+    <meta name="keywords" content="xdelta,patcher,online,html5,web,rom,patch,hack,translation"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+    <link rel="shortcut icon" href="../_assets/img/app_icon_16.png" type="image/png" sizes="16x16"/>
+    <link rel="shortcut icon" href="../_assets/img/app_icon_192.png" type="image/png" sizes="192x192"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_assets/img/app_icon_114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../_assets/img/app_icon_114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../_assets/img/app_icon_144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../_assets/img/app_icon_144.png" />
+    <link rel="apple-touch-icon" href="../_assets/img/app_icon_192.png" />
+
+    <link type="text/css" rel="stylesheet" href="../_assets/rom-patcher-js/style.css" media="all" />
+
+
+  </head>
+
+  <body>
+
+    <header>
+      <a href="https://patcher.aki.guide" title="Return to patcher.aki.guide" id="header-image"></a>
+      <h1 id="header-h1"></h1>
+      <div class="container" id="scriptData"></div>
+    </header>
+
+    <main>
+
+      <div id="rom-patcher-container">
+
+        <div id="summary">
+          <div class="rom-patcher-row">
+            <div class="text-right text-bold">Created By:</div>
+            <div class="text-truncate" id="summary-created-by"></div>
+          </div>
+          <div class="rom-patcher-row">
+            <div class="text-right text-bold">Based On:</div>
+            <div class="text-truncate" id="summary-based-on"></div>
+          </div>
+          <div class="rom-patcher-row">
+            <div class="text-right text-bold">Current Version:</div>
+            <div class="text-truncate" id="summary-version"></div>
+          </div>
+          <div class="rom-patcher-row">
+            <div class="text-right text-bold">Additional Files:</div>
+            <div class="text-truncate" id="summary-additional"></div>
+          </div>
+          <div class="rom-patcher-row">
+            <div class="text-right text-bold">Website:</div>
+            <div class="text-truncate" id="summary-website"></div>
+          </div>
+        </div>
+
+        <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-rom">
+          <div class="text-right"><label for="rom-patcher-input-file-rom" data-localize="yes">ROM file:</label></div>
+          <div class="rom-patcher-container-input">
+            <input type="file" id="rom-patcher-input-file-rom" class="empty" disabled />
+          </div>
+        </div>
+        <div class="margin-bottom text-selectable text-mono text-muted" id="rom-patcher-rom-info">
+          <div class="rom-patcher-row">
+            <div class="text-right">CRC32:</div>
+            <div class="text-truncate"><span id="rom-patcher-span-crc32"></span></div>
+          </div>
+          <div class="rom-patcher-row" id="rom-patcher-row-info-rom">
+            <div class="text-right">ROM:</div>
+            <div class="text-truncate"><span id="rom-patcher-span-rom-info"></span></div>
+          </div>
+        </div>
+
+        <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-patch">
+          <div class="text-right">
+            <label for="rom-patcher-input-file-patch" data-localize="yes">Patch file:</label>
+          </div>
+          <div class="rom-patcher-container-input">
+            <select id="rom-patcher-select-patch"></select>
+          </div>
+        </div>
+
+        <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-patch-description">
+          <div class="text-right text-mono text-muted" data-localize="yes">Description:</div>
+          <div class="text-truncate" id="rom-patcher-patch-description"></div>
+        </div>
+
+        <div class="rom-patcher-row margin-bottom text-selectable text-mono text-muted" id="rom-patcher-row-patch-requirements">
+          <div class="text-right text-mono" id="rom-patcher-patch-requirements-type">ROM requirements:</div>
+          <div class="text-truncate" id="rom-patcher-patch-requirements-value"></div>
+        </div>
+
+        <div class="text-center" id="rom-patcher-row-apply">
+          <div id="rom-patcher-row-error-message" class="margin-bottom">
+            <span id="rom-patcher-error-message"></span>
+          </div>
+          <button id="rom-patcher-button-apply" data-localize="yes" disabled>Apply patch</button>
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer>
+      <div id="rom-patcher-powered" class="text-center">
+        <a href="https://github.com/marcrobledo/RomPatcher.js" target="_blank">
+        <img src="../_assets/rom-patcher-js/assets/powered_by_rom_patcher_js.png" loading="lazy" />Powered by Rom Patcher JS</a>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      const currentCode = "ecwhpm";
+    </script>
+
+    <script type="text/javascript" src="../_assets/js/akipatchdb.js"></script>
+    <script type="text/javascript" src="../_assets/js/akipatch.js"></script>
+
+    <script type="text/javascript" src="../_assets/rom-patcher-js/RomPatcher.webapp.js"></script>
+
+    <script type="text/javascript">
+      window.addEventListener('load', function() {
+          const myPatcherSettings = {
+              language: 'en',
+              requireValidation: true,
+              allowDropFiles: false
+          };
+          const currentPatch = {
+              file: propertyFile,
+              name: propertyName,
+              inputCrc32: propertyCrc,
+              outputName: propertyOutput
+          };
+          RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
+      });
+    </script>
+
+  </body>
+
+</html>
