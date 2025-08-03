@@ -45,6 +45,11 @@ header h1 {
 
 }
 
+#rom-patcher-container .text-mute
+{
+  color: #888;
+}
+
 #rom-patcher-container input {
 	color: black;
 }
