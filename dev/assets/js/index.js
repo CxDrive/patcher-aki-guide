@@ -90,7 +90,7 @@ const indexFuture = dataset.filter(item => item.category === "future");
 var strFuture = '';
 
 for (let i = 0; i < indexFuture.length; i++) {
-    strFuture += '<a class="list-group-item list-group-item-action" data-toggle="tooltip" title="'  + indexFuture[i].codeName + '" href="' +  indexFuture[i].url + '" target="_blank">'  + indexFuture[i].codeName + ' <span style="color: #dee2e6">by ' + indexFuture[i].creatorName + '</span></a>'
+    strFuture += '<a class="list-group-item list-group-item-action" data-toggle="tooltip" title="'  + indexFuture[i].codeName + '" href="' +  indexFuture[i].url + '">'  + indexFuture[i].codeName + ' <span style="color: #dee2e6">by ' + indexFuture[i].creatorName + '</span></a>'
 };
 
 document.getElementById("index-future").innerHTML = strFuture;
