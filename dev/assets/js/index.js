@@ -6,6 +6,7 @@ const indexHack = dataset.filter(item => item.category === "hack");
 const indexTranslationAll = dataset.filter(item => item.category === "translation");
 const indexImprovementAll = dataset.filter(item => item.category === "improvement");
 
+
 // Filter current hacks
 
 const indexCurrent = indexHack.filter(item => item.current === "TRUE");
@@ -69,6 +70,30 @@ for (let i = 0; i < index2020.length; i++) {
 };
 
 document.getElementById("index-2020").innerHTML = str2020;
+
+// Build External section
+
+const indexExternal = dataset.filter(item => item.category === "external");
+
+var strExternal = '';
+
+for (let i = 0; i < indexExternal.length; i++) {
+    strExternal += '<a title="' + indexExternal[i].codeName + ' by ' + indexExternal[i].creatorName + '" alt="' + indexExternal[i].codeName + '" href="' + indexExternal[i].url + '" target="_blank"><img class="box-link available" src="./assets/img/box_' + indexExternal[i].code + '.png"></a>'
+};
+
+document.getElementById("index-external").innerHTML = strExternal;
+
+// Build The Future section
+
+const indexFuture = dataset.filter(item => item.category === "future");
+
+var strFuture = '';
+
+for (let i = 0; i < indexFuture.length; i++) {
+    strFuture += '<a class="list-group-item list-group-item-action" data-toggle="tooltip" title="'  + indexFuture[i].codeName + '" href="' +  indexFuture[i].url + '" target="_blank">'  + indexFuture[i].codeName + ' <span style="color: #dee2e6">by ' + indexFuture[i].creatorName + '</span></a>'
+};
+
+document.getElementById("index-future").innerHTML = strFuture;
 
 // Build Translations section
 
