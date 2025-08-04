@@ -1017,7 +1017,7 @@ var dataset = [
     },
     {
         "code": "vpw2nnt",
-        "codeName": "VPW 2 - Nihon No Tsua",
+        "codeName": "Virtual Pro Wrestling 2 - Nihon No Tsua",
         "category": "future",
         "creator": "cirezero",
         "creatorName": "Cire Zero & Roninwanderer83",
