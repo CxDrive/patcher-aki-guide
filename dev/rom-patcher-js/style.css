@@ -24,6 +24,17 @@ header h1 {
 	display: none;
 }
 
+#note {
+  text-align: center;
+  font-size: 12px;
+}
+
+#note h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
 #summary {
 	margin-bottom: 50px;
 	font-size: 12px;
