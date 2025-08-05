@@ -151,7 +151,7 @@
               requireValidation: true,
               allowDropFiles: false
           };
-          const propertyCrc32 = parseInt(propertyCrc, 16);
+          const propertyCrc32 = Integer.decode(propertyCrc);
           const currentPatch = {
               file: propertyFile,
               name: propertyName,
