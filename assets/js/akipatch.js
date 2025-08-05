@@ -33,3 +33,15 @@ var propertyFile = './files/' + currentData.code + '/' + currentData.file;
 var propertyName = currentData.outputName;
 var propertyCrc = currentData.inputCrc32;
 var propertyOutput = currentData.outputName;
+
+const stringToHex = (propertyCrc) => {
+  let hex = '';
+  for (let i = 0; i < propertyCrc.length; i++) {
+    const charCode = propertyCrc.charCodeAt(i);
+    const hexValue = charCode.toString(16);
+
+    // Pad with zeros to ensure two-digit representation
+    hex += hexValue.padStart(2, '0');
+  }
+  return hex;
+};
