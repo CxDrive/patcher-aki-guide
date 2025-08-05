@@ -151,12 +151,11 @@
               requireValidation: true,
               allowDropFiles: false
           };
-          const propertyCrc32 = Number(propertyCrc);
-          console.log(propertyCrc32);
+          console.log(propertyCrc);
           const currentPatch = {
               file: propertyFile,
               name: propertyName,
-              inputCrc32: propertyCrc32,
+              inputCrc32: propertyCrc,
               outputName: propertyOutput
           };
           RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
