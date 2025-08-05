@@ -259,7 +259,7 @@ var dataset = [
         "url": "https://www.youtube.com/watch?v=gg2mEPNxguc",
         "urlTitle": "The intro to Project Outsider.....but something's different",
         "note": "The .FLA save found below in Additional Files is required for the complete roster.",
-        "noteType": "noteType"
+        "noteType": "info"
     },
     {
         "code": "wm2kv",
@@ -649,7 +649,7 @@ var dataset = [
         "url": "",
         "urlTitle": "",
         "note": "THIS ROM HACK IS NOT FINISHED, ONLY 72 OF 98 WRESLTERS ARE FULLY COMPLETE. EXPECT CHANGES.",
-        "noteType": "noteType"
+        "noteType": "info"
     },
     {
         "code": "wcwsatnight",
