@@ -888,7 +888,7 @@ var dataset = [
     {
         "code": "violentarts",
         "codeName": "Violent Arts",
-        "category": "future",
+        "category": "external",
         "creator": "cirezero",
         "creatorName": "Cire Zero",
         "version": "",
@@ -906,7 +906,7 @@ var dataset = [
         "add3Title": "",
         "add4": "",
         "add4Title": "",
-        "url": "#index-future",
+        "url": "https://www.patreon.com/TheViolentArts",
         "urlTitle": "",
         "note": "",
         "noteType": ""
