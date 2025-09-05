@@ -1092,5 +1092,31 @@ var dataset = [
         "urlTitle": "",
         "note": "",
         "noteType": ""
+    },
+    {
+        "code": "pnd",
+        "codeName": "PRIDE Never Die",
+        "category": "hack",
+        "creator": "rey",
+        "creatorName": "rey",
+        "version": "Beta 1",
+        "current": "TRUE",
+        "date": "20250904",
+        "outputName": "PRIDE Never Die (Japan) (Beta 1)",
+        "file": "20250904_pnd_patch.xdelta",
+        "inputRom": "Virtual Pro Wrestling 2 - Oudou Keishou (Japan)",
+        "inputCrc32": "0xF620835D",
+        "add1": "20250904_pnd_readme.txt",
+        "add1Title": "Readme",
+        "add2": "",
+        "add2Title": "",
+        "add3": "",
+        "add3Title": "",
+        "add4": "",
+        "add4Title": "",
+        "url": "https://github.com/mostdaysarebaddays/PRIDE-Never-Die",
+        "urlTitle": "Project GitHub",
+        "note": "",
+        "noteType": ""
     }
 ]
