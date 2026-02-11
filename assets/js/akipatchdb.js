@@ -1262,7 +1262,7 @@ var dataset = [
         "file": "20260210_ecwhpm_patch.xdelta",
         "inputRom": "WWF WrestleMania 2000 (USA)",
         "inputCrc32": "0x0B50B4C6",
-        "add1": "20260210_ecwhpm_readme",
+        "add1": "20260210_ecwhpm_readme.txt",
         "add1Title": "Readme",
         "add2": "",
         "add2Title": "",
