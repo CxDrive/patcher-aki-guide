@@ -1326,5 +1326,31 @@ var dataset = [
         "urlTitle": "Wrestlemania X: SK Edition - Some entrances with something extra",
         "note": "",
         "noteType": ""
+    },
+    {
+        "code": "gs64",
+        "codeName": "Giant Series 64",
+        "category": "hack",
+        "creator": "kikrusher99",
+        "creatorName": "kikrusher99",
+        "version": "Preview 1",
+        "current": "TRUE",
+        "date": "20260222",
+        "outputName": "Giant Series 64 (Japan) (Preview 1)",
+        "file": "20260222_gs64_patch.xdelta",
+        "inputRom": "Virtual Pro Wrestling 2 - Oudou Keishou (Japan)",
+        "inputCrc32": "0xF620835D",
+        "add1": "",
+        "add1Title": "",
+        "add2": "",
+        "add2Title": "",
+        "add3": "",
+        "add3Title": "",
+        "add4": "",
+        "add4Title": "",
+        "url": "",
+        "urlTitle": "",
+        "note": "This ROM hack is a work in progress, you may encounter some glitches and bugs.",
+        "noteType": "warning"
     }
 ]
