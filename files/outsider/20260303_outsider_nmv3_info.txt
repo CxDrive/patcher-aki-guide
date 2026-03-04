@@ -1,0 +1,32 @@
+No Mercy Plus V3 1/4/25
+Expansion Pak is required.
+Please report bugs to community chats on either Patreon or Discord.
+patreon.com/AKI_ROMS
+
+
+- Summercart64:
+  Firmware 2.20.2 WILL NOT save data for this ROM. You NEED to flash your SC64 to 2.18.0 if you want to save data. The next FW release should support this ROM. Check Summercart folder for flashing.
+  Newer SC64 menu version still work with older FW.
+  ROM is over 64MB so it will take extra time to load on Summercart.
+
+- Analogue 3D (Via Summercart)
+  requires Firmware V 1.20 or higher
+to avoid save data issues.
+
+- M64 FZ Pro (Android)
+  Set display graphics to "GlideN64-Accurate" don't forget that "N". Overwise you'll have graphical issues.
+  Some emulators can load ROMs above 64MB but can't read data beyond the 64MB area. This has results in static for some entrance tracks. Change the few tracks that this occurs with or use a compatible emulator.
+
+- RetroArch:
+  To load the ROM you need to use the core plugin included in the download. It's required to load N64 games over 64MB.
+
+- Batocera:
+  If you have graphic issues on menus while using the Parallel video plugin, switching from API to Vulcan can resolve this. If Vulcan causes slowdown during gameplay, you might need to switch back and forth as you return to menus. Info thanks to Sean Dwyer.
+
+- Issue on another emulator or handheld? The game ID is ED, unlike the original NM game W4. Your emulator might require additional database info to read the game.
+
+- Everdrive64:
+  Due to the base ROM now exceeding 64MB, Everdrive is no longer compatible.
+
+STATIC MUSIC?
+Some emulators can load ROMs above 64MB but can't read data beyond the 64MB area. This results in static for some entrance tracks. Change the few tracks that this occurs with or use a compatible emulator.
