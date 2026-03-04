@@ -1439,7 +1439,7 @@ var dataset = [
         "creatorName": "G.M.Spectre",
         "version": "X-Treme",
         "current": "TRUE",
-        "date": "20240902",
+        "date": "20260303",
         "outputName": "Project Outsider X-Treme (USA)",
         "file": "20260303_outsider_patch.xdelta",
         "inputRom": "WWF No Mercy (USA)",
