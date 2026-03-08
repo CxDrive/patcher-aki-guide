@@ -1465,7 +1465,7 @@ var dataset = [
         "creatorName": "G.M.Spectre",
         "version": "X-Treme (Music Alt)",
         "current": "",
-        "date": "20260308",
+        "date": "20260307",
         "outputName": "Project Outsider X-Treme (USA) (v1.1) [a]",
         "file": "20260308_outsider_patch_music_alt.xdelta",
         "inputRom": "WWF No Mercy (USA)",
@@ -1502,11 +1502,11 @@ var dataset = [
         "add2Title": "No Mercy v3 Info",
         "add3": "20260303_outsider_mac_user.txt",
         "add3Title": "mac user",
-        "add4": "20260308_outsider_patch_music_alt.xdelta",
-        "add4Title": "Music Alt Patch",
+        "add4": "",
+        "add4Title": "",
         "url": "https://www.youtube.com/watch?v=Wzcw8uP2z10",
         "urlTitle": "Project Outsider X-Treme - RELEASED!",
-        "note": "If experiencing static on some music, patch your rom with the <b>Music Alt Patch</b> found in Files below instead.",
+        "note": "If experiencing static on some music, patch your ROM with the Music Alt Patch found in Files below instead.",
         "noteType": "info"
     }
 ]
