@@ -1466,7 +1466,7 @@ var dataset = [
         "version": "V1.0",
         "current": "TRUE",
         "date": "20260521",
-        "outputName": "WCW-nWo Revenge - Starrcade Edition (USA) [Unlocked]",
+        "outputName": "WCW-nWo Revenge - Starrcade Edition (USA) (v1.0)",
         "file": "20260521_revse_patch.xdelta",
         "inputRom": "WCW-nWo Revenge (USA)",
         "inputCrc32": "0x54CBAAA8",
