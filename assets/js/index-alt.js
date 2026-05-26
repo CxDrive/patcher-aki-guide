@@ -11,6 +11,18 @@ const indexImprovementAll = dataset.filter(item => item.category === "improvemen
 
 const indexCurrent = indexHack.filter(item => item.current === "TRUE");
 
+// Build 2026 Hack section
+
+const index2026 = indexCurrent.filter(item => item.date.includes("2026"));
+
+var str2026 = '';
+
+for (let i = 0; i < index2026.length; i++) {
+    str2026 += '<a title="' + index2026[i].codeName + ' by ' + index2026[i].creatorName + '" alt="' + index2026[i].codeName + '" href="./' + index2026[i].code + '.html"><img class="box-link available" src="./assets/img/box_' + index2026[i].code + '.png"></a>'
+};
+
+document.getElementById("index-2026").innerHTML = str2026;
+
 // Build 2025 Hack section
 
 const index2025 = indexCurrent.filter(item => item.date.includes("2025"));
