@@ -158,6 +158,32 @@
               inputCrc32: propertyCrc,
               outputName: propertyOutput
           };
+
+          const romCheck = {
+			onloadrom:function(romFile, patch){
+				/* if ROM is little endian */
+				if(romFile.getExtension()==='n64' && romFile.hashMD5()===SSB_LITTE_ENDIAN_CRC32){
+					/* change endianness to big */
+					romFile.swapBytes(4);
+					/* change extension */
+					romFile.setExtension('z64');
+
+					romIsLittleEndian=true;
+				}else{
+					romIsLittleEndian=false;
+				}
+			},
+			onpatch:function(patchedRomFile){
+				/* if ROM was little endian */
+				if(romIsLittleEndian){
+					/* revert endianness to little */
+					romFile.swapBytes(4);
+					/* revert extension */
+					romFile.setExtension('n64');
+				}
+			}
+		};
+
           RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
       });
     </script>
