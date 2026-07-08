@@ -163,7 +163,18 @@
               outputName: propertyOutput
           };
 
-          RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
+          const romCheck = {
+              {
+                  onvalidaterom: function(romFile, isRomValid){
+                      var ext = romFile.getExtension();
+                      if(ext === 'n64' || ext === 'v64'){
+                          RomPatcherWeb.setErrorMessage('Please provide a .z64 ROM file. .n64 and .v64 files are not supported.');
+                      }
+                  }
+              }
+          };
+
+          RomPatcherWeb.initialize(myPatcherSettings, romCheck, currentPatch);
       });
     </script>
 
