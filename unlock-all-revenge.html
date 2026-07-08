@@ -160,7 +160,7 @@
                   var romInput = document.getElementById('rom-patcher-input-file-rom');
 
                   if(ext !== 'z64'){
-                      RomPatcherWeb.setErrorMessage('Please provide a .z64 ROM file (or a .zip containing one).');
+                      RomPatcherWeb.setErrorMessage('Please provide a .z64 ROM file.');
                       setTimeout(function(){
                           applyButton.disabled = true;
                           romInput.classList.remove('valid');
