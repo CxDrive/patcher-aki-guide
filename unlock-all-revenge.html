@@ -154,14 +154,17 @@
               language: 'en',
               requireValidation: true,
               allowDropFiles: false,
-              onvalidaterom: function (romFile, isRomValid) {
-				  var ext = romFile.getExtension();
-				  var applyButton = document.getElementById('rom-patcher-button-apply');
-                  if(ext === 'n64' || ext === 'v64') {
-                      RomPatcherWeb.setErrorMessage('Please provide a .z64 ROM file. .n64 and .v64 files are not supported.');
-                      applyButton.disabled = true;
-                  }
-              }
+              onvalidaterom: function(romFile, isRomValid){
+	var ext = romFile.getExtension();
+	var applyButton = document.getElementById('rom-patcher-button-apply');
+	if(ext === 'n64' || ext === 'v64'){
+		applyButton.disabled = true;
+		console.log('set disabled:', applyButton.disabled);
+		setTimeout(function(){
+			console.log('disabled after tick:', applyButton.disabled);
+		}, 0);
+	}
+}
           };
 
           const currentPatch = {
