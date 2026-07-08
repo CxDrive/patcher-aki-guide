@@ -153,7 +153,21 @@
           const myPatcherSettings = {
               language: 'en',
               requireValidation: true,
-              allowDropFiles: false
+              allowDropFiles: false,
+              onvalidaterom: function(romFile, isRomValid){
+                  var ext = romFile.getExtension().toLowerCase();
+                  var applyButton = document.getElementById('rom-patcher-button-apply');
+                  var romInput = document.getElementById('rom-patcher-input-file-rom');
+
+                  if(ext !== 'z64'){
+                      RomPatcherWeb.setErrorMessage('Please provide a .z64 ROM file.');
+                      setTimeout(function(){
+                          applyButton.disabled = true;
+                          romInput.classList.remove('valid');
+                          romInput.classList.add('invalid');
+                      }, 0);
+                  }
+              }
           };
 
           const currentPatch = {
