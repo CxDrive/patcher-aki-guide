@@ -169,11 +169,21 @@
 					romFile.swapBytes(4);
 					/* change extension */
 					romFile.setExtension('z64');
+
 					romIsLittleEndian=true;
 				}else{
 					romIsLittleEndian=false;
 				}
 			},
+			onpatch:function(patchedRomFile){
+				/* if ROM was little endian */
+				if(romIsLittleEndian){
+					/* revert endianness to little */
+
+					/* revert extension */
+					romFile.setExtension('z64');
+				}
+			}
 		};
 
           RomPatcherWeb.initialize(myPatcherSettings, currentPatch, romCheck);
