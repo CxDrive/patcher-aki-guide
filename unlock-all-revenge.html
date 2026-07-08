@@ -153,7 +153,13 @@
           const myPatcherSettings = {
               language: 'en',
               requireValidation: true,
-              allowDropFiles: false
+              allowDropFiles: false,
+              onvalidaterom: function (romFile, isRomValid) {
+				  var ext = romFile.getExtension();
+                  if(ext === 'n64' || ext === 'v64') {
+                      RomPatcherWeb.setErrorMessage('Please provide a .z64 ROM file. .n64 and .v64 files are not supported.');
+                  }
+              }
           };
 
           const currentPatch = {
@@ -163,16 +169,8 @@
               outputName: propertyOutput
           };
 
-          const romCheck = {
-              onvalidaterom: function (romFile, isRomValid) {
-				  var ext = romFile.getExtension();
-                  if(ext === 'n64' || ext === 'v64') {
-                      RomPatcherWeb.setErrorMessage('Please provide a .z64 ROM file. .n64 and .v64 files are not supported.');
-                  }
-              }
-          };
 
-          RomPatcherWeb.initialize(myPatcherSettings, currentPatch, romCheck);
+          RomPatcherWeb.initialize(myPatcherSettings, currentPatch);
       });
     </script>
 
