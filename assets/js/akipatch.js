@@ -1,5 +1,14 @@
 dataset.sort((a, b) => parseFloat(b.date) - parseFloat(a.date));
 
+function formatDate(dateNum) {
+  const s = String(dateNum);
+  const year = s.slice(0, 4);
+  const month = s.slice(4, 6);
+  const day = s.slice(6, 8);
+  const date = new Date(Number(year), Number(month) - 1, Number(day));
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
 const currentData = dataset.find(item => item.code === currentCode);
 
 document.getElementById("header-image").innerHTML = '<img src="./assets/img/lg_' + currentData.code + '.png" alt="' + currentData.codeName + '" />';
@@ -15,7 +24,7 @@ if (currentData.note !== "") {
 document.getElementById("summary-created-by").innerHTML = currentData.creatorName;
 document.getElementById("summary-based-on").innerHTML = currentData.inputRom;
 document.getElementById("summary-version").innerHTML = currentData.version;
-document.getElementById("summary-date").innerHTML = currentData.date;
+document.getElementById("summary-date").innerHTML = formatDate(currentData.date);
 
 if (currentData.add2 === "") {
   document.getElementById("summary-additional").innerHTML = '<a href="./files/' + currentData.code + '/' + currentData.add1 + '" class="yellow-link">' + currentData.add1Title + '</a>';
