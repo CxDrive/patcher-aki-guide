@@ -15,6 +15,7 @@ if (currentData.note !== "") {
 document.getElementById("summary-created-by").innerHTML = currentData.creatorName;
 document.getElementById("summary-based-on").innerHTML = currentData.inputRom;
 document.getElementById("summary-version").innerHTML = currentData.version;
+document.getElementById("summary-date").innerHTML = currentData.date;
 
 if (currentData.add2 === "") {
   document.getElementById("summary-additional").innerHTML = '<a href="./files/' + currentData.code + '/' + currentData.add1 + '" class="yellow-link">' + currentData.add1Title + '</a>';
