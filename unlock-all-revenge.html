@@ -155,7 +155,7 @@
           const currentPatch = {
               file: propertyFile,
               name: propertyName,
-              inputCrc32: propertyCrc,
+              inputCrc32: propertyCrc[propertyCrc, 0x37792e82],
               outputName: propertyOutput
           };
 
@@ -170,12 +170,6 @@
 					/* change extension */
 					romFile.setExtension('z64');
 					romIsLittleEndian=true;
-					const currentPatch = {
-              file: propertyFile,
-              name: propertyName,
-              inputCrc32: 0x37792e82,
-              outputName: propertyOutput
-          };
 				}else{
 					romIsLittleEndian=false;
 				}
