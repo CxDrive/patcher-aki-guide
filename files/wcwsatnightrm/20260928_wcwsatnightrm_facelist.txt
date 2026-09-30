@@ -1,0 +1,110 @@
+Face 000 — Stunning Steve
+Face 001 — DDP
+Face 002 — Tom Zenk
+Face 003 — Lex Luger
+Face 004 — Bunkhouse Buck
+Face 005 — Ric Flair
+Face 006 — Mike Rotunda
+Face 007 — Dr. Death Steve Williams
+Face 008 — Ron Simmons
+Face 009 — Sid
+Face 010 — Barry Windham
+Face 011 — Ricky Steamboat
+Face 012 — Dustin Rhodes
+Face 013 — Tully Blanchard
+Face 014 — Arn Anderson
+Face 015 — Cactus Jack
+Face 016 — Nikolai Koloff
+Face 017 — Rick Rude
+Face 018 — Lord Steve Regal
+Face 019 — Ole Anderson
+Face 020 — Tommy Rich
+Face 021 — Vader
+Face 022 — Booker T
+Face 023 — Stevie Ray
+Face 024 — Marcus Bagwell
+Face 025 — Scott Steiner
+Face 026 — Rick Steiner
+Face 027 — Stan Hansen
+Face 028 — Butch Reed
+Face 029 — Brian Pillman
+Face 030 — Paul Orndorff
+Face 031 — Abdullah The Butcher
+Face 032 — Dan Spivey
+Face 033 — Brad Armstrong
+Face 034 — Buddy Landel
+Face 035 — Terry Gordy
+Face 036 — Jimmy Garvin
+Face 037 — Terry Funk
+Face 038 — Robert Fuller
+Face 039 — Johnny B. Badd
+Face 040 — Stan Lane
+Face 041 — Bobby Eaton
+Face 042 — Ricky Morton
+Face 043 — Robert Gibson
+Face 044 — Kevin Sullivan
+Face 045 — Harley Race
+Face 046 — Michael Hayes
+Face 047 — Eddie Gilbert
+Face 048 — Larry Zbyszko
+Face 049 — Dusty Rhodes
+Face 050 — T.Fujinami
+Face 051 — Sting
+Face 052 — Keiji Mutoh
+Face 053 — Road Warrior Animal
+Face 054 — Road Warrior Hawk
+Face 055 — Paul Heyman
+Face 056 — Hulk Hogan
+Face 057 — Vinnie Vegas
+Face 058 — Dean Malenko
+Face 059 — Fit Finley
+Face 060 — Masahiro Chono
+Face 061 — Diamond Studd
+Face 062 — 2 Cold Scorpio
+Face 063 — Scotty Flamingo
+Face 064 — Meng
+Face 065 — Barbarian
+Face 066 — Jim Duggan
+Face 067 — Ed Leslie
+Face 068 — Brian Knobs
+Face 069 — Jerry Sags
+Face 070 — Honkey Tonk Man
+Face 071 — Jake Roberts
+Face 072 — Shinya Hashimoto
+Face 073 — Van Hammer
+Face 074 — Big Bubba Rogers
+Face 075 — PN News
+Face 076 — Glen Jacobs
+Face 077 — Jean Paul Leveque
+Face 078 — Kensuke Sasaki
+Face 079 — Paul Roma
+Face 080 — Jim Neidhart
+Face 081 — Robbie V
+Face 082 — Z-Gangsta
+Face 083 — Tracy Smothers
+Face 084 — Scott Armstrong
+Face 085 — One Man Gang
+Face 086 — Greg Valentine
+Face 087 — JYD
+Face 088 — El Gigante
+Face 089 — Maxx Payne
+Face 090 — Shane Douglas
+Face 091 — Big Josh
+Face 092 — Terry Taylor
+Face 093 — Johnny Ace
+Face 094 — Undertaker
+Face 095 — Sgt. Slaughter
+Face 096 — Ultimate Warrior
+Face 097 — British Bulldog
+Face 098 — HBK
+Face 099 — Bret Hart
+Face 100 — Andre
+Face 101 — Samu
+Face 102 — Fatu
+Face 103 — Mr. Hughes
+Face 104 — Tex Slazenger
+Face 105 — Shanghai Pierce
+Face 106 — El Gigante (Alt)
+Face 107 — Big Sky
+Face 108 — Nash (Alt)
+Face 109 — Shane Douglas (Alt)
