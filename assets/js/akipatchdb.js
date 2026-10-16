@@ -1742,5 +1742,31 @@ var dataset = [
         "urlTitle": "BAMP Presents: GMSpectre's WCW Saturday Night Remastered! DOWNLOAD NOW",
         "note": "",
         "noteType": ""
+    },
+    {
+        "code": "vpw64dx",
+        "codeName": "Virtual Pro Wrestling 64 Deluxe",
+        "category": "hack",
+        "creator": "longwater",
+        "creatorName": "LongWater",
+        "version": "v1.0",
+        "current": "TRUE",
+        "date": "20261016",
+        "outputName": "Virtual Pro Wrestling 64 Deluxe (Japan) (v1.0)",
+        "file": "20261016_vpw64dx_patch.xdelta",
+        "inputRom": "Virtual Pro Wrestling 2 - Oudou Keishou (Japan)",
+        "inputCrc32": "0xF620835D",
+        "add1": "20261016_vpw64dx_changelog.txt",
+        "add1Title": "Changelog",
+        "add2": "20261016_vpw64dx_cover.png",
+        "add2Title": "Cover",
+        "add3": "",
+        "add3Title": "",
+        "add4": "",
+        "add4Title": "",
+        "url": "",
+        "urlTitle": "",
+        "note": "",
+        "noteType": ""
     }
 ]

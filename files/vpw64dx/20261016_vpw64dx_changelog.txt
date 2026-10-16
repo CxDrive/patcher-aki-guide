@@ -1,0 +1,190 @@
+===============================================================================
+  VPW64 DELUXE  -  Changelog & Important Notes
+  Based on: Virtual Pro-Wrestling 2 (Freem English Edition)
+  Date: 2026-10-17
+===============================================================================
+
+CONTENTS
+  1. Important note about Edit Mode  (please read first!)
+  2. Changelog
+  3. What depends on what  (for anyone who still wants to change things)
+  4. Technical info / flashcarts
+
+
+-------------------------------------------------------------------------------
+1. IMPORTANT NOTE ABOUT EDIT MODE
+-------------------------------------------------------------------------------
+
+Many wrestlers in this hack use special rules that are NOT visible in Edit
+Mode. They are built into the game code: custom entrance gear, capes with
+physics, themes per attire, custom call names and more.
+
+These rules are tied to the wrestler ID, to the costume number (1-4), or to
+specific attire/model numbers. If you change Entrance Attire, Upper Attire
+(shirts/jackets), Ring Attire or the theme of these wrestlers in Edit Mode,
+you may:
+  - lose parts of the clothing or see clothing doubled/clipping through
+    (e.g. a shirt showing through the entrance jacket),
+  - get the "wrong" theme or lose a theme,
+  - get entrance gear that does not belong to that wrestler.
+
+I can NOT guarantee that modified costumes will work without bugs.
+Recommendation: do not change Entrance/Upper/Ring Attire or themes of the
+pre-made wrestlers. Your own Edit wrestlers are fine, as long as you don't
+combine shirts with entrance jackets (see 3.6).
+
+
+-------------------------------------------------------------------------------
+2. CHANGELOG
+-------------------------------------------------------------------------------
+
+BOOT / TITLE / MENUS
+  
+  - Wrestler view in the menu zoomed out a bit.
+
+
+MUSIC / THEMES
+  - More than 60 new entrance themes (in addition to the original themes),
+    cleanly looped, louder and mixed with reverb.
+  - Themes per attire (see 3.2), e.g. Hogan WCW / Hogan NJPW, Sting Crow,
+    Savage WCW, Ric Flair WCW.
+  - Tiger Mask themes:
+      Tiger Mask (all attires)  -> original Tiger Mask theme
+      K. Yamazaki, Attire 2     -> Tiger Mask (IV) theme
+      M. Misawa, Attire 3       -> Tiger Mask II theme
+      K. Kanemoto, Attire 3     -> Tiger Mask III theme (without spoken intro)
+    These three attires are also announced with the call name "Tiger Mask".
+
+ENTRANCES
+  
+  - Title ceremony (Royal Road), multi-part title entrances.
+  - Streamers during entrances (also for tag teams).
+  - Some wrestlers wear their Upper Attire as entrance gear and take it off
+    for the match (Hase, Takayama, Omori, Johnny Ace, Mike Barton -
+    costumes 1-3).
+  - Scott Steiner (nWo): custom hood/headgear during the entrance, all
+    costumes.
+  - Scott Hall: open vest (Bash at the Beach '96) or Outsiders shirt,
+    depending on the Ring Attire.
+  - Tiger Mask jacket with sleeves/collar; capes for Tiger Mask, Misawa
+    (orange), Kanemoto, Ultimo Dragon (gold) and Eddie (Black Tiger) - with
+    cape physics like Liger's (they swing and hang from the shoulders/back).
+
+CHAMPIONSHIP BELTS
+  - Champions wear their title belts during the entrance in every mode
+    (not only in Royal Road).
+  - Up to 3 belts at the same time: around the waist and over both
+    shoulders (defended title first).
+  - Triple Crown (3 belts) and World Tag Team (2 belts) are shown as real
+    multi-part belts during the entrance.
+  - Title win ceremony like in Royal Road (belt/trophy presentation), and
+    the winner's theme keeps playing during the ceremony.
+
+REPLAYS
+  - Use the R button during a replay to control the replay speed.
+  - Dynamic replays in tag team matches.
+  - Replays in DomeRoad now behave the same as in all other arenas.
+
+ARENAS
+  - New turnbuckle pads (AJPW / NJPW).
+
+WRESTLERS / LOOKS
+  - New faces, hair (photo style), chest hair, face paint/accessories, Masks
+  - New/revised attires for, among others: Great Muta, Great Kabuki, Sting
+    (Crow, nWo 1996), Scott Steiner (nWo + classic singlets), Rick Steiner
+    (leopard), Scott Hall, Hulk Hogan, Bret Hart (colors fixed),
+    Mike Awesome (trunks now read "AWESOME" instead of "AWFUL"),
+    Tiger Mask & co.
+  - New skin tone (tanned), revised boots and body parts.
+
+
+MOVES
+  - Atomic Leg Drop, Rude Awakening, Scott Steiner Elbow Drop
+
+
+
+-------------------------------------------------------------------------------
+3. WHAT DEPENDS ON WHAT
+-------------------------------------------------------------------------------
+
+3.1 Costume number vs. costume content
+    Every wrestler has 4 costumes (Attire 1-4). Most special rules look at
+    the costume NUMBER, not at what is set inside it. For example, if you
+    completely rebuild Misawa's costume 3, he still gets the Tiger Mask II
+    theme.
+
+3.2 Themes per attire
+    A built-in table "wrestler + costume number -> theme".
+    It takes priority over the theme set in Edit Mode.
+      Hulk Hogan      Attire 3 -> Hogan WCW,  Attire 4 -> Hogan NJPW
+      Sting           Attire 1 -> Sting Crow
+      Randy Savage    Attire 2 + 3 -> Savage WCW
+      Ric Flair       Attire 1 + 2 -> Flair WCW
+      K. Yamazaki     Attire 2 -> Tiger Mask (IV)
+      M. Misawa       Attire 3 -> Tiger Mask II
+      K. Kanemoto     Attire 3 -> Tiger Mask III
+    Consequences:
+      - Changing the theme in Edit Mode has NO effect on these attires.
+      - The other attires of these wrestlers use their normal theme.
+      - The Tiger Mask call name is tied to the theme: only the three
+        Tiger Mask attires above are announced as "Tiger Mask".
+      - The DomeRoad light show works with all themes, including these.
+    Tiger Mask's own theme (all attires) sits in the former "Triple Crown"
+    slot of the theme list.
+
+3.3 Upper Attire as entrance gear (Hase, Takayama, Omori, Ace, Barton)
+    Costumes 1-3 have Entrance Attire "9" set. For THESE wrestlers, 9 means:
+    "wear the Upper Attire from costume 4 during the entrance and take it off
+    for the match".
+      - Changing the Entrance Attire of costumes 1-3 -> the jacket/shirt is
+        missing during the entrance.
+      - Changing the Upper Attire of costume 4 -> also changes the entrance
+        gear of costumes 1-3.
+      - For all other wrestlers, Entrance 9 is simply the normal Entrance
+        Attire A9.
+
+3.4 Scott Steiner (nWo) and Scott Hall
+      - Steiner nWo: the entrance hood is tied to the wrestler ID and appears
+        with all costumes, regardless of the Entrance Attire setting.
+      - Scott Hall: the entrance gear depends on the RING Attire (not on the
+        costume number): Ring Attire A9 -> vest, A6 -> Outsiders shirt.
+        Changing the Ring Attire = different or no entrance gear.
+
+3.5 Capes with physics (Tiger Mask, Misawa, Kanemoto, Ultimo Dragon, Eddie)
+    All these capes use the same two cape models. The physics are tied to
+    exactly these models (modelled after Liger's cape).
+      - Colors/textures of the capes can differ, the shape is the same for
+        all of them.
+      - Giving these clothing parts to other wrestlers or combining them with
+        other Entrance Attires has not been tested.
+
+3.6 Entrance Attire + shirts (Upper Attire)
+    Several Entrance Attires were rebuilt for specific wrestlers (different
+    models than in the original game, e.g. the Hayabusa robe B7 uses the
+    coat shape of B5/B6). An Entrance Attire only replaces certain body
+    parts - everything else stays visible. Therefore:
+      - Shirt (Upper Attire) + entrance jacket can cause the shirt to show
+        through or parts of the jacket to be missing.
+      - Safe: Entrance Attire without a shirt, or a shirt without an
+        Entrance Attire.
+    Entrance Attire numbers only go up to 31 (the game cannot store more).
+
+3.7 Masks
+    Mask 20 (Vader) has its own head model and a round face. A different
+    face shape/body size may look different with this mask than with normal
+    masks.
+
+
+-------------------------------------------------------------------------------
+4. TECHNICAL INFO / FLASHCARTS
+-------------------------------------------------------------------------------
+
+  - ROM size approx. 63.7 MB (fits within 64 MB).
+  - Made for real hardware. SummerCart64: should work (save type SRAM
+    256 kbit, detected via the game ID - otherwise set it manually in the
+    cart menu).
+  - NTSC (60 Hz). Japanese and US consoles: no problem.
+    PAL consoles (Europe): picture only with a 60 Hz capable TV or a
+    modified console.
+  - Old save files from other VPW2 versions may contain settings that mean
+    something different here - it's best to start with a fresh save.
