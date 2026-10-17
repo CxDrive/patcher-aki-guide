@@ -1714,7 +1714,7 @@ var dataset = [
         "add4Title": "",
         "url": "",
         "urlTitle": "",
-        "note": "",
-        "noteType": ""
+        "note": "This ROM hack is a work in progress, you may encounter some glitches and bugs. It may not run on a console.",
+        "noteType": "warning"
     }
 ]
